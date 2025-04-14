@@ -1,0 +1,2284 @@
+
+[Token 1]
+Type: TraditionalComment
+Value: "/* 
+    String s = "()";
+    Output: true;
+    
+    s = "()[]{}";
+    Output: true;
+    
+    s = "(]";
+    Output: false;
+    
+    s = "{[]}";
+    Output: true;
+    
+    s = "([)]";
+    Output:false 
+    
+    s = "}][{";
+    Output:false 
+    
+    s = "{][{";
+    Output:false 
+    
+    s = "[";
+    Output:false 
+*/"
+Location: Line 81, Column 1 
+
+[Token 2]
+Type: LineComment
+Value: "// nothing"
+Location: Line 5, Column 1 
+
+[Token 3]
+Type: LineComment
+Value: "// dsfsaf"
+Location: Line 6, Column 1 
+
+[Token 4]
+Type: RCurly
+Value: "}"
+Location: Line 79, Column 1 
+
+[Token 5]
+Type: Semicolon
+Value: ";"
+Location: Line 8, Column 26 
+
+[Token 6]
+Type: True
+Value: "true"
+Location: Line 8, Column 22 
+
+[Token 7]
+Type: Equals
+Value: "="
+Location: Line 8, Column 20 
+
+[Token 8]
+Type: Identifier
+Value: "isTrue"
+Location: Line 8, Column 13 
+
+[Token 9]
+Type: Boolean
+Value: "boolean"
+Location: Line 8, Column 5 
+
+[Token 10]
+Type: Semicolon
+Value: ";"
+Location: Line 9, Column 28 
+
+[Token 11]
+Type: RCurly
+Value: "}"
+Location: Line 9, Column 27 
+
+[Token 12]
+Type: Comma
+Value: ","
+Location: Line 9, Column 19 
+
+[Token 13]
+Type: Comma
+Value: ","
+Location: Line 9, Column 21 
+
+[Token 14]
+Type: Comma
+Value: ","
+Location: Line 9, Column 23 
+
+[Token 15]
+Type: Comma
+Value: ","
+Location: Line 9, Column 25 
+
+[Token 16]
+Type: DecimalLiteral
+Value: "1"
+Location: Line 9, Column 18 
+
+[Token 17]
+Type: DecimalLiteral
+Value: "2"
+Location: Line 9, Column 20 
+
+[Token 18]
+Type: DecimalLiteral
+Value: "3"
+Location: Line 9, Column 22 
+
+[Token 19]
+Type: DecimalLiteral
+Value: "4"
+Location: Line 9, Column 24 
+
+[Token 20]
+Type: DecimalLiteral
+Value: "5"
+Location: Line 9, Column 26 
+
+[Token 21]
+Type: LCurly
+Value: "{"
+Location: Line 9, Column 17 
+
+[Token 22]
+Type: Equals
+Value: "="
+Location: Line 9, Column 15 
+
+[Token 23]
+Type: Identifier
+Value: "arr"
+Location: Line 9, Column 11 
+
+[Token 24]
+Type: RSquare
+Value: "]"
+Location: Line 9, Column 9 
+
+[Token 25]
+Type: LSquare
+Value: "["
+Location: Line 9, Column 8 
+
+[Token 26]
+Type: Int
+Value: "int"
+Location: Line 9, Column 5 
+
+[Token 27]
+Type: Semicolon
+Value: ";"
+Location: Line 10, Column 21 
+
+[Token 28]
+Type: FloatLiteral
+Value: "3.14"
+Location: Line 10, Column 17 
+
+[Token 29]
+Type: Equals
+Value: "="
+Location: Line 10, Column 15 
+
+[Token 30]
+Type: Identifier
+Value: "pi"
+Location: Line 10, Column 12 
+
+[Token 31]
+Type: Double
+Value: "double"
+Location: Line 10, Column 5 
+
+[Token 32]
+Type: RCurly
+Value: "}"
+Location: Line 13, Column 5 
+
+[Token 33]
+Type: Semicolon
+Value: ";"
+Location: Line 12, Column 23 
+
+[Token 34]
+Type: RBrace
+Value: ")"
+Location: Line 12, Column 22 
+
+[Token 35]
+Type: LBrace
+Value: "("
+Location: Line 12, Column 21 
+
+[Token 36]
+Type: Identifier
+Value: "reverseArray"
+Location: Line 12, Column 9 
+
+[Token 37]
+Type: LCurly
+Value: "{"
+Location: Line 11, Column 44 
+
+[Token 38]
+Type: RBrace
+Value: ")"
+Location: Line 11, Column 42 
+
+[Token 39]
+Type: Identifier
+Value: "args"
+Location: Line 11, Column 38 
+
+[Token 40]
+Type: RSquare
+Value: "]"
+Location: Line 11, Column 36 
+
+[Token 41]
+Type: LSquare
+Value: "["
+Location: Line 11, Column 35 
+
+[Token 42]
+Type: Identifier
+Value: "String"
+Location: Line 11, Column 29 
+
+[Token 43]
+Type: LBrace
+Value: "("
+Location: Line 11, Column 28 
+
+[Token 44]
+Type: Identifier
+Value: "main"
+Location: Line 11, Column 24 
+
+[Token 45]
+Type: Void
+Value: "void"
+Location: Line 11, Column 19 
+
+[Token 46]
+Type: Public
+Value: "public"
+Location: Line 11, Column 5 
+
+[Token 47]
+Type: Static
+Value: "static"
+Location: Line 11, Column 12 
+
+[Token 48]
+Type: RCurly
+Value: "}"
+Location: Line 43, Column 5 
+
+[Token 49]
+Type: Semicolon
+Value: ";"
+Location: Line 16, Column 47 
+
+[Token 50]
+Type: RBrace
+Value: ")"
+Location: Line 16, Column 46 
+
+[Token 51]
+Type: LBrace
+Value: "("
+Location: Line 16, Column 45 
+
+[Token 52]
+Type: Greater
+Value: ">"
+Location: Line 16, Column 44 
+
+[Token 53]
+Type: Less
+Value: "<"
+Location: Line 16, Column 43 
+
+[Token 54]
+Type: Identifier
+Value: "Stack"
+Location: Line 16, Column 38 
+
+[Token 55]
+Type: New
+Value: "new"
+Location: Line 16, Column 34 
+
+[Token 56]
+Type: Equals
+Value: "="
+Location: Line 16, Column 32 
+
+[Token 57]
+Type: Identifier
+Value: "stack"
+Location: Line 16, Column 26 
+
+[Token 58]
+Type: Greater
+Value: ">"
+Location: Line 16, Column 24 
+
+[Token 59]
+Type: Identifier
+Value: "Character"
+Location: Line 16, Column 15 
+
+[Token 60]
+Type: Less
+Value: "<"
+Location: Line 16, Column 14 
+
+[Token 61]
+Type: Identifier
+Value: "Stack"
+Location: Line 16, Column 9 
+
+[Token 62]
+Type: RCurly
+Value: "}"
+Location: Line 39, Column 9 
+
+[Token 63]
+Type: Semicolon
+Value: ";"
+Location: Line 19, Column 36 
+
+[Token 64]
+Type: RBrace
+Value: ")"
+Location: Line 19, Column 35 
+
+[Token 65]
+Type: Identifier
+Value: "i"
+Location: Line 19, Column 34 
+
+[Token 66]
+Type: LBrace
+Value: "("
+Location: Line 19, Column 33 
+
+[Token 67]
+Type: Identifier
+Value: "charAt"
+Location: Line 19, Column 27 
+
+[Token 68]
+Type: Dot
+Value: "."
+Location: Line 19, Column 26 
+
+[Token 69]
+Type: Identifier
+Value: "str"
+Location: Line 19, Column 23 
+
+[Token 70]
+Type: Equals
+Value: "="
+Location: Line 19, Column 21 
+
+[Token 71]
+Type: Identifier
+Value: "ch"
+Location: Line 19, Column 18 
+
+[Token 72]
+Type: Char
+Value: "char"
+Location: Line 19, Column 13 
+
+[Token 73]
+Type: Semicolon
+Value: ";"
+Location: Line 20, Column 63 
+
+[Token 74]
+Type: EqualsEquals
+Value: "=="
+Location: Line 20, Column 31 
+
+[Token 75]
+Type: OrOr
+Value: "||"
+Location: Line 20, Column 38 
+
+[Token 76]
+Type: EqualsEquals
+Value: "=="
+Location: Line 20, Column 44 
+
+[Token 77]
+Type: OrOr
+Value: "||"
+Location: Line 20, Column 51 
+
+[Token 78]
+Type: EqualsEquals
+Value: "=="
+Location: Line 20, Column 57 
+
+[Token 79]
+Type: Identifier
+Value: "ch"
+Location: Line 20, Column 28 
+
+[Token 80]
+Type: CharLiteral
+Value: "'('"
+Location: Line 20, Column 34 
+
+[Token 81]
+Type: Identifier
+Value: "ch"
+Location: Line 20, Column 41 
+
+[Token 82]
+Type: CharLiteral
+Value: "'['"
+Location: Line 20, Column 47 
+
+[Token 83]
+Type: Identifier
+Value: "ch"
+Location: Line 20, Column 54 
+
+[Token 84]
+Type: CharLiteral
+Value: "'{'"
+Location: Line 20, Column 60 
+
+[Token 85]
+Type: Equals
+Value: "="
+Location: Line 20, Column 26 
+
+[Token 86]
+Type: Open
+Value: "open"
+Location: Line 20, Column 21 
+
+[Token 87]
+Type: Boolean
+Value: "boolean"
+Location: Line 20, Column 13 
+
+[Token 88]
+Type: Semicolon
+Value: ";"
+Location: Line 21, Column 64 
+
+[Token 89]
+Type: EqualsEquals
+Value: "=="
+Location: Line 21, Column 32 
+
+[Token 90]
+Type: OrOr
+Value: "||"
+Location: Line 21, Column 39 
+
+[Token 91]
+Type: EqualsEquals
+Value: "=="
+Location: Line 21, Column 45 
+
+[Token 92]
+Type: OrOr
+Value: "||"
+Location: Line 21, Column 52 
+
+[Token 93]
+Type: EqualsEquals
+Value: "=="
+Location: Line 21, Column 58 
+
+[Token 94]
+Type: Identifier
+Value: "ch"
+Location: Line 21, Column 29 
+
+[Token 95]
+Type: CharLiteral
+Value: "')'"
+Location: Line 21, Column 35 
+
+[Token 96]
+Type: Identifier
+Value: "ch"
+Location: Line 21, Column 42 
+
+[Token 97]
+Type: CharLiteral
+Value: "']'"
+Location: Line 21, Column 48 
+
+[Token 98]
+Type: Identifier
+Value: "ch"
+Location: Line 21, Column 55 
+
+[Token 99]
+Type: CharLiteral
+Value: "'}'"
+Location: Line 21, Column 61 
+
+[Token 100]
+Type: Equals
+Value: "="
+Location: Line 21, Column 27 
+
+[Token 101]
+Type: Identifier
+Value: "close"
+Location: Line 21, Column 21 
+
+[Token 102]
+Type: Boolean
+Value: "boolean"
+Location: Line 21, Column 13 
+
+[Token 103]
+Type: Semicolon
+Value: ";"
+Location: Line 23, Column 41 
+
+[Token 104]
+Type: Continue
+Value: "continue"
+Location: Line 23, Column 33 
+
+[Token 105]
+Type: RBrace
+Value: ")"
+Location: Line 23, Column 31 
+
+[Token 106]
+Type: AndAnd
+Value: "&&"
+Location: Line 23, Column 22 
+
+[Token 107]
+Type: Open
+Value: "open"
+Location: Line 23, Column 17 
+
+[Token 108]
+Type: Not
+Value: "!"
+Location: Line 23, Column 16 
+
+[Token 109]
+Type: Identifier
+Value: "close"
+Location: Line 23, Column 26 
+
+[Token 110]
+Type: Not
+Value: "!"
+Location: Line 23, Column 25 
+
+[Token 111]
+Type: LBrace
+Value: "("
+Location: Line 23, Column 15 
+
+[Token 112]
+Type: If
+Value: "if"
+Location: Line 23, Column 13 
+
+[Token 113]
+Type: Semicolon
+Value: ";"
+Location: Line 24, Column 54 
+
+[Token 114]
+Type: False
+Value: "false"
+Location: Line 24, Column 49 
+
+[Token 115]
+Type: Return
+Value: "return"
+Location: Line 24, Column 42 
+
+[Token 116]
+Type: RBrace
+Value: ")"
+Location: Line 24, Column 40 
+
+[Token 117]
+Type: AndAnd
+Value: "&&"
+Location: Line 24, Column 22 
+
+[Token 118]
+Type: Identifier
+Value: "close"
+Location: Line 24, Column 16 
+
+[Token 119]
+Type: RBrace
+Value: ")"
+Location: Line 24, Column 39 
+
+[Token 120]
+Type: LBrace
+Value: "("
+Location: Line 24, Column 38 
+
+[Token 121]
+Type: Identifier
+Value: "isEmpty"
+Location: Line 24, Column 31 
+
+[Token 122]
+Type: Dot
+Value: "."
+Location: Line 24, Column 30 
+
+[Token 123]
+Type: Identifier
+Value: "stack"
+Location: Line 24, Column 25 
+
+[Token 124]
+Type: LBrace
+Value: "("
+Location: Line 24, Column 15 
+
+[Token 125]
+Type: If
+Value: "if"
+Location: Line 24, Column 13 
+
+[Token 126]
+Type: Else
+Value: "else"
+Location: Line 28, Column 15 
+
+[Token 127]
+Type: RCurly
+Value: "}"
+Location: Line 28, Column 13 
+
+[Token 128]
+Type: Semicolon
+Value: ";"
+Location: Line 27, Column 31 
+
+[Token 129]
+Type: RBrace
+Value: ")"
+Location: Line 27, Column 30 
+
+[Token 130]
+Type: Identifier
+Value: "ch"
+Location: Line 27, Column 28 
+
+[Token 131]
+Type: LBrace
+Value: "("
+Location: Line 27, Column 27 
+
+[Token 132]
+Type: Identifier
+Value: "push"
+Location: Line 27, Column 23 
+
+[Token 133]
+Type: Dot
+Value: "."
+Location: Line 27, Column 22 
+
+[Token 134]
+Type: Identifier
+Value: "stack"
+Location: Line 27, Column 17 
+
+[Token 135]
+Type: LCurly
+Value: "{"
+Location: Line 26, Column 22 
+
+[Token 136]
+Type: RCurly
+Value: "}"
+Location: Line 38, Column 13 
+
+[Token 137]
+Type: Semicolon
+Value: ";"
+Location: Line 29, Column 40 
+
+[Token 138]
+Type: RBrace
+Value: ")"
+Location: Line 29, Column 39 
+
+[Token 139]
+Type: LBrace
+Value: "("
+Location: Line 29, Column 38 
+
+[Token 140]
+Type: Identifier
+Value: "pop"
+Location: Line 29, Column 35 
+
+[Token 141]
+Type: Dot
+Value: "."
+Location: Line 29, Column 34 
+
+[Token 142]
+Type: Identifier
+Value: "stack"
+Location: Line 29, Column 29 
+
+[Token 143]
+Type: Equals
+Value: "="
+Location: Line 29, Column 27 
+
+[Token 144]
+Type: Identifier
+Value: "last"
+Location: Line 29, Column 22 
+
+[Token 145]
+Type: Char
+Value: "char"
+Location: Line 29, Column 17 
+
+[Token 146]
+Type: RCurly
+Value: "}"
+Location: Line 37, Column 17 
+
+[Token 147]
+Type: Semicolon
+Value: ";"
+Location: Line 36, Column 33 
+
+[Token 148]
+Type: False
+Value: "false"
+Location: Line 36, Column 28 
+
+[Token 149]
+Type: Return
+Value: "return"
+Location: Line 36, Column 21 
+
+[Token 150]
+Type: LCurly
+Value: "{"
+Location: Line 35, Column 19 
+
+[Token 151]
+Type: RBrace
+Value: ")"
+Location: Line 35, Column 17 
+
+[Token 152]
+Type: OrOr
+Value: "||"
+Location: Line 32, Column 52 
+
+[Token 153]
+Type: OrOr
+Value: "||"
+Location: Line 33, Column 52 
+
+[Token 154]
+Type: RBrace
+Value: ")"
+Location: Line 32, Column 50 
+
+[Token 155]
+Type: AndAnd
+Value: "&&"
+Location: Line 32, Column 36 
+
+[Token 156]
+Type: RBrace
+Value: ")"
+Location: Line 32, Column 34 
+
+[Token 157]
+Type: EqualsEquals
+Value: "=="
+Location: Line 32, Column 28 
+
+[Token 158]
+Type: Identifier
+Value: "last"
+Location: Line 32, Column 23 
+
+[Token 159]
+Type: CharLiteral
+Value: "'('"
+Location: Line 32, Column 31 
+
+[Token 160]
+Type: LBrace
+Value: "("
+Location: Line 32, Column 22 
+
+[Token 161]
+Type: RBrace
+Value: ")"
+Location: Line 32, Column 49 
+
+[Token 162]
+Type: NotEquals
+Value: "!="
+Location: Line 32, Column 43 
+
+[Token 163]
+Type: Identifier
+Value: "ch"
+Location: Line 32, Column 40 
+
+[Token 164]
+Type: CharLiteral
+Value: "')'"
+Location: Line 32, Column 46 
+
+[Token 165]
+Type: LBrace
+Value: "("
+Location: Line 32, Column 39 
+
+[Token 166]
+Type: LBrace
+Value: "("
+Location: Line 32, Column 21 
+
+[Token 167]
+Type: RBrace
+Value: ")"
+Location: Line 33, Column 50 
+
+[Token 168]
+Type: AndAnd
+Value: "&&"
+Location: Line 33, Column 36 
+
+[Token 169]
+Type: RBrace
+Value: ")"
+Location: Line 33, Column 34 
+
+[Token 170]
+Type: EqualsEquals
+Value: "=="
+Location: Line 33, Column 28 
+
+[Token 171]
+Type: Identifier
+Value: "last"
+Location: Line 33, Column 23 
+
+[Token 172]
+Type: CharLiteral
+Value: "'{'"
+Location: Line 33, Column 31 
+
+[Token 173]
+Type: LBrace
+Value: "("
+Location: Line 33, Column 22 
+
+[Token 174]
+Type: RBrace
+Value: ")"
+Location: Line 33, Column 49 
+
+[Token 175]
+Type: NotEquals
+Value: "!="
+Location: Line 33, Column 43 
+
+[Token 176]
+Type: Identifier
+Value: "ch"
+Location: Line 33, Column 40 
+
+[Token 177]
+Type: CharLiteral
+Value: "'}'"
+Location: Line 33, Column 46 
+
+[Token 178]
+Type: LBrace
+Value: "("
+Location: Line 33, Column 39 
+
+[Token 179]
+Type: LBrace
+Value: "("
+Location: Line 33, Column 21 
+
+[Token 180]
+Type: RBrace
+Value: ")"
+Location: Line 34, Column 50 
+
+[Token 181]
+Type: AndAnd
+Value: "&&"
+Location: Line 34, Column 36 
+
+[Token 182]
+Type: RBrace
+Value: ")"
+Location: Line 34, Column 34 
+
+[Token 183]
+Type: EqualsEquals
+Value: "=="
+Location: Line 34, Column 28 
+
+[Token 184]
+Type: Identifier
+Value: "last"
+Location: Line 34, Column 23 
+
+[Token 185]
+Type: CharLiteral
+Value: "'['"
+Location: Line 34, Column 31 
+
+[Token 186]
+Type: LBrace
+Value: "("
+Location: Line 34, Column 22 
+
+[Token 187]
+Type: RBrace
+Value: ")"
+Location: Line 34, Column 49 
+
+[Token 188]
+Type: NotEquals
+Value: "!="
+Location: Line 34, Column 43 
+
+[Token 189]
+Type: Identifier
+Value: "ch"
+Location: Line 34, Column 40 
+
+[Token 190]
+Type: CharLiteral
+Value: "']'"
+Location: Line 34, Column 46 
+
+[Token 191]
+Type: LBrace
+Value: "("
+Location: Line 34, Column 39 
+
+[Token 192]
+Type: LBrace
+Value: "("
+Location: Line 34, Column 21 
+
+[Token 193]
+Type: LBrace
+Value: "("
+Location: Line 31, Column 19 
+
+[Token 194]
+Type: If
+Value: "if"
+Location: Line 31, Column 17 
+
+[Token 195]
+Type: LCurly
+Value: "{"
+Location: Line 28, Column 20 
+
+[Token 196]
+Type: RBrace
+Value: ")"
+Location: Line 26, Column 20 
+
+[Token 197]
+Type: Open
+Value: "open"
+Location: Line 26, Column 16 
+
+[Token 198]
+Type: LBrace
+Value: "("
+Location: Line 26, Column 15 
+
+[Token 199]
+Type: If
+Value: "if"
+Location: Line 26, Column 13 
+
+[Token 200]
+Type: LCurly
+Value: "{"
+Location: Line 18, Column 47 
+
+[Token 201]
+Type: RBrace
+Value: ")"
+Location: Line 18, Column 45 
+
+[Token 202]
+Type: PlusPlus
+Value: "++"
+Location: Line 18, Column 43 
+
+[Token 203]
+Type: Identifier
+Value: "i"
+Location: Line 18, Column 42 
+
+[Token 204]
+Type: Less
+Value: "<"
+Location: Line 18, Column 26 
+
+[Token 205]
+Type: Identifier
+Value: "i"
+Location: Line 18, Column 24 
+
+[Token 206]
+Type: RBrace
+Value: ")"
+Location: Line 18, Column 39 
+
+[Token 207]
+Type: LBrace
+Value: "("
+Location: Line 18, Column 38 
+
+[Token 208]
+Type: Identifier
+Value: "length"
+Location: Line 18, Column 32 
+
+[Token 209]
+Type: Dot
+Value: "."
+Location: Line 18, Column 31 
+
+[Token 210]
+Type: Identifier
+Value: "str"
+Location: Line 18, Column 28 
+
+[Token 211]
+Type: Semicolon
+Value: ";"
+Location: Line 18, Column 22 
+
+[Token 212]
+Type: Semicolon
+Value: ";"
+Location: Line 18, Column 40 
+
+[Token 213]
+Type: DecimalLiteral
+Value: "0"
+Location: Line 18, Column 21 
+
+[Token 214]
+Type: Equals
+Value: "="
+Location: Line 18, Column 19 
+
+[Token 215]
+Type: Identifier
+Value: "i"
+Location: Line 18, Column 17 
+
+[Token 216]
+Type: Int
+Value: "int"
+Location: Line 18, Column 13 
+
+[Token 217]
+Type: LBrace
+Value: "("
+Location: Line 18, Column 12 
+
+[Token 218]
+Type: For
+Value: "for"
+Location: Line 18, Column 9 
+
+[Token 219]
+Type: Semicolon
+Value: ";"
+Location: Line 41, Column 42 
+
+[Token 220]
+Type: False
+Value: "false"
+Location: Line 41, Column 37 
+
+[Token 221]
+Type: Return
+Value: "return"
+Location: Line 41, Column 30 
+
+[Token 222]
+Type: RBrace
+Value: ")"
+Location: Line 41, Column 28 
+
+[Token 223]
+Type: RBrace
+Value: ")"
+Location: Line 41, Column 27 
+
+[Token 224]
+Type: LBrace
+Value: "("
+Location: Line 41, Column 26 
+
+[Token 225]
+Type: Identifier
+Value: "isEmpty"
+Location: Line 41, Column 19 
+
+[Token 226]
+Type: Dot
+Value: "."
+Location: Line 41, Column 18 
+
+[Token 227]
+Type: Identifier
+Value: "stack"
+Location: Line 41, Column 13 
+
+[Token 228]
+Type: Not
+Value: "!"
+Location: Line 41, Column 12 
+
+[Token 229]
+Type: LBrace
+Value: "("
+Location: Line 41, Column 11 
+
+[Token 230]
+Type: If
+Value: "if"
+Location: Line 41, Column 9 
+
+[Token 231]
+Type: Semicolon
+Value: ";"
+Location: Line 42, Column 20 
+
+[Token 232]
+Type: True
+Value: "true"
+Location: Line 42, Column 16 
+
+[Token 233]
+Type: Return
+Value: "return"
+Location: Line 42, Column 9 
+
+[Token 234]
+Type: LCurly
+Value: "{"
+Location: Line 15, Column 45 
+
+[Token 235]
+Type: RBrace
+Value: ")"
+Location: Line 15, Column 43 
+
+[Token 236]
+Type: Identifier
+Value: "str"
+Location: Line 15, Column 40 
+
+[Token 237]
+Type: Identifier
+Value: "String"
+Location: Line 15, Column 33 
+
+[Token 238]
+Type: LBrace
+Value: "("
+Location: Line 15, Column 32 
+
+[Token 239]
+Type: Identifier
+Value: "matchingPars"
+Location: Line 15, Column 20 
+
+[Token 240]
+Type: Boolean
+Value: "boolean"
+Location: Line 15, Column 12 
+
+[Token 241]
+Type: Static
+Value: "static"
+Location: Line 15, Column 5 
+
+[Token 242]
+Type: RCurly
+Value: "}"
+Location: Line 59, Column 5 
+
+[Token 243]
+Type: Semicolon
+Value: ";"
+Location: Line 47, Column 21 
+
+[Token 244]
+Type: DecimalLiteral
+Value: "55"
+Location: Line 47, Column 19 
+
+[Token 245]
+Type: Equals
+Value: "="
+Location: Line 47, Column 17 
+
+[Token 246]
+Type: Identifier
+Value: "num"
+Location: Line 47, Column 13 
+
+[Token 247]
+Type: Int
+Value: "int"
+Location: Line 47, Column 9 
+
+[Token 248]
+Type: Semicolon
+Value: ";"
+Location: Line 48, Column 45 
+
+[Token 249]
+Type: RBrace
+Value: ")"
+Location: Line 48, Column 44 
+
+[Token 250]
+Type: LBrace
+Value: "("
+Location: Line 48, Column 43 
+
+[Token 251]
+Type: Greater
+Value: ">"
+Location: Line 48, Column 42 
+
+[Token 252]
+Type: Less
+Value: "<"
+Location: Line 48, Column 41 
+
+[Token 253]
+Type: Identifier
+Value: "Stack"
+Location: Line 48, Column 36 
+
+[Token 254]
+Type: New
+Value: "new"
+Location: Line 48, Column 32 
+
+[Token 255]
+Type: Equals
+Value: "="
+Location: Line 48, Column 30 
+
+[Token 256]
+Type: Identifier
+Value: "stack"
+Location: Line 48, Column 24 
+
+[Token 257]
+Type: Greater
+Value: ">"
+Location: Line 48, Column 22 
+
+[Token 258]
+Type: Identifier
+Value: "Integer"
+Location: Line 48, Column 15 
+
+[Token 259]
+Type: Less
+Value: "<"
+Location: Line 48, Column 14 
+
+[Token 260]
+Type: Identifier
+Value: "Stack"
+Location: Line 48, Column 9 
+
+[Token 261]
+Type: RCurly
+Value: "}"
+Location: Line 54, Column 9 
+
+[Token 262]
+Type: Semicolon
+Value: ";"
+Location: Line 51, Column 31 
+
+[Token 263]
+Type: Modulo
+Value: "%"
+Location: Line 51, Column 28 
+
+[Token 264]
+Type: Identifier
+Value: "num"
+Location: Line 51, Column 24 
+
+[Token 265]
+Type: DecimalLiteral
+Value: "2"
+Location: Line 51, Column 30 
+
+[Token 266]
+Type: Equals
+Value: "="
+Location: Line 51, Column 22 
+
+[Token 267]
+Type: Identifier
+Value: "calc"
+Location: Line 51, Column 17 
+
+[Token 268]
+Type: Int
+Value: "int"
+Location: Line 51, Column 13 
+
+[Token 269]
+Type: Semicolon
+Value: ";"
+Location: Line 52, Column 29 
+
+[Token 270]
+Type: RBrace
+Value: ")"
+Location: Line 52, Column 28 
+
+[Token 271]
+Type: Identifier
+Value: "calc"
+Location: Line 52, Column 24 
+
+[Token 272]
+Type: LBrace
+Value: "("
+Location: Line 52, Column 23 
+
+[Token 273]
+Type: Identifier
+Value: "push"
+Location: Line 52, Column 19 
+
+[Token 274]
+Type: Dot
+Value: "."
+Location: Line 52, Column 18 
+
+[Token 275]
+Type: Identifier
+Value: "stack"
+Location: Line 52, Column 13 
+
+[Token 276]
+Type: Semicolon
+Value: ";"
+Location: Line 53, Column 26 
+
+[Token 277]
+Type: Divide
+Value: "/"
+Location: Line 53, Column 23 
+
+[Token 278]
+Type: Identifier
+Value: "num"
+Location: Line 53, Column 19 
+
+[Token 279]
+Type: DecimalLiteral
+Value: "2"
+Location: Line 53, Column 25 
+
+[Token 280]
+Type: Equals
+Value: "="
+Location: Line 53, Column 17 
+
+[Token 281]
+Type: Identifier
+Value: "num"
+Location: Line 53, Column 13 
+
+[Token 282]
+Type: LCurly
+Value: "{"
+Location: Line 50, Column 25 
+
+[Token 283]
+Type: RBrace
+Value: ")"
+Location: Line 50, Column 23 
+
+[Token 284]
+Type: NotEquals
+Value: "!="
+Location: Line 50, Column 19 
+
+[Token 285]
+Type: Identifier
+Value: "num"
+Location: Line 50, Column 15 
+
+[Token 286]
+Type: DecimalLiteral
+Value: "0"
+Location: Line 50, Column 22 
+
+[Token 287]
+Type: LBrace
+Value: "("
+Location: Line 50, Column 14 
+
+[Token 288]
+Type: While
+Value: "while"
+Location: Line 50, Column 9 
+
+[Token 289]
+Type: RCurly
+Value: "}"
+Location: Line 58, Column 9 
+
+[Token 290]
+Type: Semicolon
+Value: ";"
+Location: Line 57, Column 42 
+
+[Token 291]
+Type: RBrace
+Value: ")"
+Location: Line 57, Column 41 
+
+[Token 292]
+Type: RBrace
+Value: ")"
+Location: Line 57, Column 40 
+
+[Token 293]
+Type: LBrace
+Value: "("
+Location: Line 57, Column 39 
+
+[Token 294]
+Type: Identifier
+Value: "pop"
+Location: Line 57, Column 36 
+
+[Token 295]
+Type: Dot
+Value: "."
+Location: Line 57, Column 35 
+
+[Token 296]
+Type: Identifier
+Value: "stack"
+Location: Line 57, Column 30 
+
+[Token 297]
+Type: LBrace
+Value: "("
+Location: Line 57, Column 29 
+
+[Token 298]
+Type: Identifier
+Value: "out"
+Location: Line 57, Column 20 
+
+[Token 299]
+Type: Identifier
+Value: "print"
+Location: Line 57, Column 24 
+
+[Token 300]
+Type: Dot
+Value: "."
+Location: Line 57, Column 19 
+
+[Token 301]
+Type: Dot
+Value: "."
+Location: Line 57, Column 23 
+
+[Token 302]
+Type: Identifier
+Value: "System"
+Location: Line 57, Column 13 
+
+[Token 303]
+Type: LCurly
+Value: "{"
+Location: Line 56, Column 34 
+
+[Token 304]
+Type: RBrace
+Value: ")"
+Location: Line 56, Column 32 
+
+[Token 305]
+Type: NotEquals
+Value: "!="
+Location: Line 56, Column 28 
+
+[Token 306]
+Type: RBrace
+Value: ")"
+Location: Line 56, Column 26 
+
+[Token 307]
+Type: LBrace
+Value: "("
+Location: Line 56, Column 25 
+
+[Token 308]
+Type: Identifier
+Value: "size"
+Location: Line 56, Column 21 
+
+[Token 309]
+Type: Dot
+Value: "."
+Location: Line 56, Column 20 
+
+[Token 310]
+Type: Identifier
+Value: "stack"
+Location: Line 56, Column 15 
+
+[Token 311]
+Type: DecimalLiteral
+Value: "0"
+Location: Line 56, Column 31 
+
+[Token 312]
+Type: LBrace
+Value: "("
+Location: Line 56, Column 14 
+
+[Token 313]
+Type: While
+Value: "while"
+Location: Line 56, Column 9 
+
+[Token 314]
+Type: LCurly
+Value: "{"
+Location: Line 46, Column 42 
+
+[Token 315]
+Type: RBrace
+Value: ")"
+Location: Line 46, Column 40 
+
+[Token 316]
+Type: LBrace
+Value: "("
+Location: Line 46, Column 39 
+
+[Token 317]
+Type: Identifier
+Value: "convertDecimalToBinary"
+Location: Line 46, Column 17 
+
+[Token 318]
+Type: Void
+Value: "void"
+Location: Line 46, Column 12 
+
+[Token 319]
+Type: Static
+Value: "static"
+Location: Line 46, Column 5 
+
+[Token 320]
+Type: RCurly
+Value: "}"
+Location: Line 78, Column 5 
+
+[Token 321]
+Type: Semicolon
+Value: ";"
+Location: Line 62, Column 34 
+
+[Token 322]
+Type: RCurly
+Value: "}"
+Location: Line 62, Column 33 
+
+[Token 323]
+Type: Comma
+Value: ","
+Location: Line 62, Column 23 
+
+[Token 324]
+Type: Comma
+Value: ","
+Location: Line 62, Column 25 
+
+[Token 325]
+Type: Comma
+Value: ","
+Location: Line 62, Column 27 
+
+[Token 326]
+Type: Comma
+Value: ","
+Location: Line 62, Column 29 
+
+[Token 327]
+Type: Comma
+Value: ","
+Location: Line 62, Column 31 
+
+[Token 328]
+Type: DecimalLiteral
+Value: "1"
+Location: Line 62, Column 22 
+
+[Token 329]
+Type: DecimalLiteral
+Value: "2"
+Location: Line 62, Column 24 
+
+[Token 330]
+Type: DecimalLiteral
+Value: "3"
+Location: Line 62, Column 26 
+
+[Token 331]
+Type: DecimalLiteral
+Value: "4"
+Location: Line 62, Column 28 
+
+[Token 332]
+Type: DecimalLiteral
+Value: "5"
+Location: Line 62, Column 30 
+
+[Token 333]
+Type: DecimalLiteral
+Value: "6"
+Location: Line 62, Column 32 
+
+[Token 334]
+Type: LCurly
+Value: "{"
+Location: Line 62, Column 21 
+
+[Token 335]
+Type: Equals
+Value: "="
+Location: Line 62, Column 19 
+
+[Token 336]
+Type: Identifier
+Value: "arr"
+Location: Line 62, Column 15 
+
+[Token 337]
+Type: RSquare
+Value: "]"
+Location: Line 62, Column 13 
+
+[Token 338]
+Type: LSquare
+Value: "["
+Location: Line 62, Column 12 
+
+[Token 339]
+Type: Int
+Value: "int"
+Location: Line 62, Column 9 
+
+[Token 340]
+Type: Semicolon
+Value: ";"
+Location: Line 63, Column 45 
+
+[Token 341]
+Type: RBrace
+Value: ")"
+Location: Line 63, Column 44 
+
+[Token 342]
+Type: LBrace
+Value: "("
+Location: Line 63, Column 43 
+
+[Token 343]
+Type: Greater
+Value: ">"
+Location: Line 63, Column 42 
+
+[Token 344]
+Type: Less
+Value: "<"
+Location: Line 63, Column 41 
+
+[Token 345]
+Type: Identifier
+Value: "Stack"
+Location: Line 63, Column 36 
+
+[Token 346]
+Type: New
+Value: "new"
+Location: Line 63, Column 32 
+
+[Token 347]
+Type: Equals
+Value: "="
+Location: Line 63, Column 30 
+
+[Token 348]
+Type: Identifier
+Value: "stack"
+Location: Line 63, Column 24 
+
+[Token 349]
+Type: Greater
+Value: ">"
+Location: Line 63, Column 22 
+
+[Token 350]
+Type: Identifier
+Value: "Integer"
+Location: Line 63, Column 15 
+
+[Token 351]
+Type: Less
+Value: "<"
+Location: Line 63, Column 14 
+
+[Token 352]
+Type: Identifier
+Value: "Stack"
+Location: Line 63, Column 9 
+
+[Token 353]
+Type: RCurly
+Value: "}"
+Location: Line 67, Column 9 
+
+[Token 354]
+Type: Semicolon
+Value: ";"
+Location: Line 66, Column 28 
+
+[Token 355]
+Type: RBrace
+Value: ")"
+Location: Line 66, Column 27 
+
+[Token 356]
+Type: Identifier
+Value: "ele"
+Location: Line 66, Column 24 
+
+[Token 357]
+Type: LBrace
+Value: "("
+Location: Line 66, Column 23 
+
+[Token 358]
+Type: Identifier
+Value: "push"
+Location: Line 66, Column 19 
+
+[Token 359]
+Type: Dot
+Value: "."
+Location: Line 66, Column 18 
+
+[Token 360]
+Type: Identifier
+Value: "stack"
+Location: Line 66, Column 13 
+
+[Token 361]
+Type: LCurly
+Value: "{"
+Location: Line 65, Column 27 
+
+[Token 362]
+Type: RBrace
+Value: ")"
+Location: Line 65, Column 25 
+
+[Token 363]
+Type: Identifier
+Value: "arr"
+Location: Line 65, Column 22 
+
+[Token 364]
+Type: Colon
+Value: ":"
+Location: Line 65, Column 20 
+
+[Token 365]
+Type: Identifier
+Value: "ele"
+Location: Line 65, Column 17 
+
+[Token 366]
+Type: Int
+Value: "int"
+Location: Line 65, Column 13 
+
+[Token 367]
+Type: LBrace
+Value: "("
+Location: Line 65, Column 12 
+
+[Token 368]
+Type: For
+Value: "for"
+Location: Line 65, Column 9 
+
+[Token 369]
+Type: RCurly
+Value: "}"
+Location: Line 71, Column 9 
+
+[Token 370]
+Type: Semicolon
+Value: ";"
+Location: Line 70, Column 33 
+
+[Token 371]
+Type: RBrace
+Value: ")"
+Location: Line 70, Column 32 
+
+[Token 372]
+Type: LBrace
+Value: "("
+Location: Line 70, Column 31 
+
+[Token 373]
+Type: Identifier
+Value: "pop"
+Location: Line 70, Column 28 
+
+[Token 374]
+Type: Dot
+Value: "."
+Location: Line 70, Column 27 
+
+[Token 375]
+Type: Identifier
+Value: "stack"
+Location: Line 70, Column 22 
+
+[Token 376]
+Type: Equals
+Value: "="
+Location: Line 70, Column 20 
+
+[Token 377]
+Type: RSquare
+Value: "]"
+Location: Line 70, Column 18 
+
+[Token 378]
+Type: Identifier
+Value: "i"
+Location: Line 70, Column 17 
+
+[Token 379]
+Type: LSquare
+Value: "["
+Location: Line 70, Column 16 
+
+[Token 380]
+Type: Identifier
+Value: "arr"
+Location: Line 70, Column 13 
+
+[Token 381]
+Type: LCurly
+Value: "{"
+Location: Line 69, Column 45 
+
+[Token 382]
+Type: RBrace
+Value: ")"
+Location: Line 69, Column 43 
+
+[Token 383]
+Type: PlusPlus
+Value: "++"
+Location: Line 69, Column 41 
+
+[Token 384]
+Type: Identifier
+Value: "i"
+Location: Line 69, Column 40 
+
+[Token 385]
+Type: Less
+Value: "<"
+Location: Line 69, Column 26 
+
+[Token 386]
+Type: Identifier
+Value: "i"
+Location: Line 69, Column 24 
+
+[Token 387]
+Type: Identifier
+Value: "length"
+Location: Line 69, Column 32 
+
+[Token 388]
+Type: Dot
+Value: "."
+Location: Line 69, Column 31 
+
+[Token 389]
+Type: Identifier
+Value: "arr"
+Location: Line 69, Column 28 
+
+[Token 390]
+Type: Semicolon
+Value: ";"
+Location: Line 69, Column 22 
+
+[Token 391]
+Type: Semicolon
+Value: ";"
+Location: Line 69, Column 38 
+
+[Token 392]
+Type: DecimalLiteral
+Value: "0"
+Location: Line 69, Column 21 
+
+[Token 393]
+Type: Equals
+Value: "="
+Location: Line 69, Column 19 
+
+[Token 394]
+Type: Identifier
+Value: "i"
+Location: Line 69, Column 17 
+
+[Token 395]
+Type: Int
+Value: "int"
+Location: Line 69, Column 13 
+
+[Token 396]
+Type: LBrace
+Value: "("
+Location: Line 69, Column 12 
+
+[Token 397]
+Type: For
+Value: "for"
+Location: Line 69, Column 9 
+
+[Token 398]
+Type: Semicolon
+Value: ";"
+Location: Line 75, Column 10 
+
+[Token 399]
+Type: RBrace
+Value: ")"
+Location: Line 75, Column 9 
+
+[Token 400]
+Type: RBrace
+Value: ")"
+Location: Line 74, Column 32 
+
+[Token 401]
+Type: Identifier
+Value: "arr"
+Location: Line 74, Column 29 
+
+[Token 402]
+Type: LBrace
+Value: "("
+Location: Line 74, Column 28 
+
+[Token 403]
+Type: Identifier
+Value: "toString"
+Location: Line 74, Column 20 
+
+[Token 404]
+Type: Dot
+Value: "."
+Location: Line 74, Column 19 
+
+[Token 405]
+Type: Identifier
+Value: "Arrays"
+Location: Line 74, Column 13 
+
+[Token 406]
+Type: LBrace
+Value: "("
+Location: Line 73, Column 27 
+
+[Token 407]
+Type: Identifier
+Value: "out"
+Location: Line 73, Column 16 
+
+[Token 408]
+Type: Identifier
+Value: "println"
+Location: Line 73, Column 20 
+
+[Token 409]
+Type: Dot
+Value: "."
+Location: Line 73, Column 15 
+
+[Token 410]
+Type: Dot
+Value: "."
+Location: Line 73, Column 19 
+
+[Token 411]
+Type: Identifier
+Value: "System"
+Location: Line 73, Column 9 
+
+[Token 412]
+Type: Semicolon
+Value: ";"
+Location: Line 76, Column 28 
+
+[Token 413]
+Type: RCurly
+Value: "}"
+Location: Line 76, Column 27 
+
+[Token 414]
+Type: Comma
+Value: ","
+Location: Line 76, Column 19 
+
+[Token 415]
+Type: Comma
+Value: ","
+Location: Line 76, Column 21 
+
+[Token 416]
+Type: Comma
+Value: ","
+Location: Line 76, Column 23 
+
+[Token 417]
+Type: Comma
+Value: ","
+Location: Line 76, Column 25 
+
+[Token 418]
+Type: DecimalLiteral
+Value: "1"
+Location: Line 76, Column 18 
+
+[Token 419]
+Type: DecimalLiteral
+Value: "2"
+Location: Line 76, Column 20 
+
+[Token 420]
+Type: DecimalLiteral
+Value: "3"
+Location: Line 76, Column 22 
+
+[Token 421]
+Type: DecimalLiteral
+Value: "4"
+Location: Line 76, Column 24 
+
+[Token 422]
+Type: DecimalLiteral
+Value: "5"
+Location: Line 76, Column 26 
+
+[Token 423]
+Type: LCurly
+Value: "{"
+Location: Line 76, Column 17 
+
+[Token 424]
+Type: Equals
+Value: "="
+Location: Line 76, Column 15 
+
+[Token 425]
+Type: Identifier
+Value: "arr"
+Location: Line 76, Column 11 
+
+[Token 426]
+Type: RSquare
+Value: "]"
+Location: Line 76, Column 9 
+
+[Token 427]
+Type: LSquare
+Value: "["
+Location: Line 76, Column 8 
+
+[Token 428]
+Type: Int
+Value: "int"
+Location: Line 76, Column 5 
+
+[Token 429]
+Type: LCurly
+Value: "{"
+Location: Line 61, Column 32 
+
+[Token 430]
+Type: RBrace
+Value: ")"
+Location: Line 61, Column 30 
+
+[Token 431]
+Type: LBrace
+Value: "("
+Location: Line 61, Column 29 
+
+[Token 432]
+Type: Identifier
+Value: "reverseArray"
+Location: Line 61, Column 17 
+
+[Token 433]
+Type: Void
+Value: "void"
+Location: Line 61, Column 12 
+
+[Token 434]
+Type: Static
+Value: "static"
+Location: Line 61, Column 5 
+
+[Token 435]
+Type: LCurly
+Value: "{"
+Location: Line 7, Column 18 
+
+[Token 436]
+Type: Identifier
+Value: "DSA"
+Location: Line 7, Column 14 
+
+[Token 437]
+Type: Class
+Value: "class"
+Location: Line 7, Column 8 
+
+[Token 438]
+Type: Public
+Value: "public"
+Location: Line 7, Column 1 
+
+[Token 439]
+Type: Semicolon
+Value: ";"
+Location: Line 2, Column 24 
+
+[Token 440]
+Type: Dot
+Value: "."
+Location: Line 2, Column 12 
+
+[Token 441]
+Type: Dot
+Value: "."
+Location: Line 2, Column 17 
+
+[Token 442]
+Type: Identifier
+Value: "java"
+Location: Line 2, Column 8 
+
+[Token 443]
+Type: Identifier
+Value: "util"
+Location: Line 2, Column 13 
+
+[Token 444]
+Type: Identifier
+Value: "Arrays"
+Location: Line 2, Column 18 
+
+[Token 445]
+Type: Import
+Value: "import"
+Location: Line 2, Column 1 
+
+[Token 446]
+Type: Semicolon
+Value: ";"
+Location: Line 3, Column 23 
+
+[Token 447]
+Type: Dot
+Value: "."
+Location: Line 3, Column 12 
+
+[Token 448]
+Type: Dot
+Value: "."
+Location: Line 3, Column 17 
+
+[Token 449]
+Type: Identifier
+Value: "java"
+Location: Line 3, Column 8 
+
+[Token 450]
+Type: Identifier
+Value: "util"
+Location: Line 3, Column 13 
+
+[Token 451]
+Type: Identifier
+Value: "Stack"
+Location: Line 3, Column 18 
+
+[Token 452]
+Type: Import
+Value: "import"
+Location: Line 3, Column 1 

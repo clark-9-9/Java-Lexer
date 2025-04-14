@@ -1,0 +1,1094 @@
+[
+  {
+    "type": "keyword",
+    "value": "public",
+    "line": 1,
+    "column": 1
+  },
+  {
+    "type": "keyword",
+    "value": "class",
+    "line": 1,
+    "column": 8
+  },
+  {
+    "type": "identifier",
+    "value": "Calculator",
+    "line": 1,
+    "column": 14
+  },
+  {
+    "type": "separator",
+    "value": "{",
+    "line": 1,
+    "column": 25
+  },
+  {
+    "type": "keyword",
+    "value": "public",
+    "line": 2,
+    "column": 5
+  },
+  {
+    "type": "keyword",
+    "value": "static",
+    "line": 2,
+    "column": 12
+  },
+  {
+    "type": "keyword",
+    "value": "void",
+    "line": 2,
+    "column": 19
+  },
+  {
+    "type": "identifier",
+    "value": "main",
+    "line": 2,
+    "column": 24
+  },
+  {
+    "type": "separator",
+    "value": "(",
+    "line": 2,
+    "column": 28
+  },
+  {
+    "type": "identifier",
+    "value": "String",
+    "line": 2,
+    "column": 29
+  },
+  {
+    "type": "separator",
+    "value": "[",
+    "line": 2,
+    "column": 35
+  },
+  {
+    "type": "separator",
+    "value": "]",
+    "line": 2,
+    "column": 36
+  },
+  {
+    "type": "identifier",
+    "value": "args",
+    "line": 2,
+    "column": 38
+  },
+  {
+    "type": "separator",
+    "value": ")",
+    "line": 2,
+    "column": 42
+  },
+  {
+    "type": "separator",
+    "value": "{",
+    "line": 2,
+    "column": 44
+  },
+  {
+    "type": "keyword",
+    "value": "int",
+    "line": 3,
+    "column": 9
+  },
+  {
+    "type": "identifier",
+    "value": "x",
+    "line": 3,
+    "column": 13
+  },
+  {
+    "type": "operator",
+    "value": "=",
+    "line": 3,
+    "column": 15
+  },
+  {
+    "type": "integer",
+    "value": "5",
+    "line": 3,
+    "column": 17
+  },
+  {
+    "type": "separator",
+    "value": ";",
+    "line": 3,
+    "column": 18
+  },
+  {
+    "type": "keyword",
+    "value": "int",
+    "line": 4,
+    "column": 9
+  },
+  {
+    "type": "identifier",
+    "value": "y",
+    "line": 4,
+    "column": 13
+  },
+  {
+    "type": "operator",
+    "value": "=",
+    "line": 4,
+    "column": 15
+  },
+  {
+    "type": "integer",
+    "value": "3",
+    "line": 4,
+    "column": 17
+  },
+  {
+    "type": "separator",
+    "value": ";",
+    "line": 4,
+    "column": 18
+  },
+  {
+    "type": "keyword",
+    "value": "int",
+    "line": 5,
+    "column": 9
+  },
+  {
+    "type": "identifier",
+    "value": "result",
+    "line": 5,
+    "column": 13
+  },
+  {
+    "type": "operator",
+    "value": "=",
+    "line": 5,
+    "column": 20
+  },
+  {
+    "type": "identifier",
+    "value": "x",
+    "line": 5,
+    "column": 22
+  },
+  {
+    "type": "operator",
+    "value": "+",
+    "line": 5,
+    "column": 24
+  },
+  {
+    "type": "identifier",
+    "value": "y",
+    "line": 5,
+    "column": 26
+  },
+  {
+    "type": "separator",
+    "value": ";",
+    "line": 5,
+    "column": 27
+  },
+  {
+    "type": "identifier",
+    "value": "System",
+    "line": 6,
+    "column": 9
+  },
+  {
+    "type": "operator",
+    "value": ".",
+    "line": 6,
+    "column": 15
+  },
+  {
+    "type": "identifier",
+    "value": "out",
+    "line": 6,
+    "column": 16
+  },
+  {
+    "type": "operator",
+    "value": ".",
+    "line": 6,
+    "column": 19
+  },
+  {
+    "type": "identifier",
+    "value": "println",
+    "line": 6,
+    "column": 20
+  },
+  {
+    "type": "separator",
+    "value": "(",
+    "line": 6,
+    "column": 27
+  },
+  {
+    "type": "string",
+    "value": "\"The result is: \"",
+    "line": 6,
+    "column": 28
+  },
+  {
+    "type": "operator",
+    "value": "+",
+    "line": 6,
+    "column": 46
+  },
+  {
+    "type": "identifier",
+    "value": "result",
+    "line": 6,
+    "column": 48
+  },
+  {
+    "type": "separator",
+    "value": ")",
+    "line": 6,
+    "column": 54
+  },
+  {
+    "type": "separator",
+    "value": ";",
+    "line": 6,
+    "column": 55
+  },
+  {
+    "type": "keyword",
+    "value": "if",
+    "line": 7,
+    "column": 9
+  },
+  {
+    "type": "separator",
+    "value": "(",
+    "line": 7,
+    "column": 12
+  },
+  {
+    "type": "identifier",
+    "value": "x",
+    "line": 7,
+    "column": 13
+  },
+  {
+    "type": "operator",
+    "value": ">",
+    "line": 7,
+    "column": 15
+  },
+  {
+    "type": "identifier",
+    "value": "y",
+    "line": 7,
+    "column": 17
+  },
+  {
+    "type": "separator",
+    "value": ")",
+    "line": 7,
+    "column": 18
+  },
+  {
+    "type": "separator",
+    "value": "{",
+    "line": 7,
+    "column": 20
+  },
+  {
+    "type": "identifier",
+    "value": "System",
+    "line": 8,
+    "column": 13
+  },
+  {
+    "type": "operator",
+    "value": ".",
+    "line": 8,
+    "column": 19
+  },
+  {
+    "type": "identifier",
+    "value": "out",
+    "line": 8,
+    "column": 20
+  },
+  {
+    "type": "operator",
+    "value": ".",
+    "line": 8,
+    "column": 23
+  },
+  {
+    "type": "identifier",
+    "value": "println",
+    "line": 8,
+    "column": 24
+  },
+  {
+    "type": "separator",
+    "value": "(",
+    "line": 8,
+    "column": 31
+  },
+  {
+    "type": "string",
+    "value": "\"x is greater than y\"",
+    "line": 8,
+    "column": 32
+  },
+  {
+    "type": "separator",
+    "value": ")",
+    "line": 8,
+    "column": 53
+  },
+  {
+    "type": "separator",
+    "value": ";",
+    "line": 8,
+    "column": 54
+  },
+  {
+    "type": "separator",
+    "value": "}",
+    "line": 9,
+    "column": 9
+  },
+  {
+    "type": "keyword",
+    "value": "else",
+    "line": 9,
+    "column": 11
+  },
+  {
+    "type": "keyword",
+    "value": "if",
+    "line": 9,
+    "column": 16
+  },
+  {
+    "type": "separator",
+    "value": "(",
+    "line": 9,
+    "column": 19
+  },
+  {
+    "type": "identifier",
+    "value": "x",
+    "line": 9,
+    "column": 20
+  },
+  {
+    "type": "operator",
+    "value": "==",
+    "line": 9,
+    "column": 22
+  },
+  {
+    "type": "identifier",
+    "value": "y",
+    "line": 9,
+    "column": 25
+  },
+  {
+    "type": "separator",
+    "value": ")",
+    "line": 9,
+    "column": 26
+  },
+  {
+    "type": "separator",
+    "value": "{",
+    "line": 9,
+    "column": 28
+  },
+  {
+    "type": "identifier",
+    "value": "System",
+    "line": 10,
+    "column": 13
+  },
+  {
+    "type": "operator",
+    "value": ".",
+    "line": 10,
+    "column": 19
+  },
+  {
+    "type": "identifier",
+    "value": "out",
+    "line": 10,
+    "column": 20
+  },
+  {
+    "type": "operator",
+    "value": ".",
+    "line": 10,
+    "column": 23
+  },
+  {
+    "type": "identifier",
+    "value": "println",
+    "line": 10,
+    "column": 24
+  },
+  {
+    "type": "separator",
+    "value": "(",
+    "line": 10,
+    "column": 31
+  },
+  {
+    "type": "string",
+    "value": "\"x is equal to y\"",
+    "line": 10,
+    "column": 32
+  },
+  {
+    "type": "separator",
+    "value": ")",
+    "line": 10,
+    "column": 49
+  },
+  {
+    "type": "separator",
+    "value": ";",
+    "line": 10,
+    "column": 50
+  },
+  {
+    "type": "separator",
+    "value": "}",
+    "line": 11,
+    "column": 9
+  },
+  {
+    "type": "keyword",
+    "value": "else",
+    "line": 11,
+    "column": 11
+  },
+  {
+    "type": "separator",
+    "value": "{",
+    "line": 11,
+    "column": 16
+  },
+  {
+    "type": "identifier",
+    "value": "System",
+    "line": 12,
+    "column": 13
+  },
+  {
+    "type": "operator",
+    "value": ".",
+    "line": 12,
+    "column": 19
+  },
+  {
+    "type": "identifier",
+    "value": "out",
+    "line": 12,
+    "column": 20
+  },
+  {
+    "type": "operator",
+    "value": ".",
+    "line": 12,
+    "column": 23
+  },
+  {
+    "type": "identifier",
+    "value": "println",
+    "line": 12,
+    "column": 24
+  },
+  {
+    "type": "separator",
+    "value": "(",
+    "line": 12,
+    "column": 31
+  },
+  {
+    "type": "string",
+    "value": "\"x is less than y\"",
+    "line": 12,
+    "column": 32
+  },
+  {
+    "type": "separator",
+    "value": ")",
+    "line": 12,
+    "column": 50
+  },
+  {
+    "type": "separator",
+    "value": ";",
+    "line": 12,
+    "column": 51
+  },
+  {
+    "type": "separator",
+    "value": "}",
+    "line": 13,
+    "column": 9
+  },
+  {
+    "type": "keyword",
+    "value": "for",
+    "line": 14,
+    "column": 9
+  },
+  {
+    "type": "separator",
+    "value": "(",
+    "line": 14,
+    "column": 13
+  },
+  {
+    "type": "keyword",
+    "value": "int",
+    "line": 14,
+    "column": 14
+  },
+  {
+    "type": "identifier",
+    "value": "i",
+    "line": 14,
+    "column": 18
+  },
+  {
+    "type": "operator",
+    "value": "=",
+    "line": 14,
+    "column": 20
+  },
+  {
+    "type": "integer",
+    "value": "0",
+    "line": 14,
+    "column": 22
+  },
+  {
+    "type": "separator",
+    "value": ";",
+    "line": 14,
+    "column": 23
+  },
+  {
+    "type": "identifier",
+    "value": "i",
+    "line": 14,
+    "column": 25
+  },
+  {
+    "type": "operator",
+    "value": "<",
+    "line": 14,
+    "column": 27
+  },
+  {
+    "type": "integer",
+    "value": "5",
+    "line": 14,
+    "column": 29
+  },
+  {
+    "type": "separator",
+    "value": ";",
+    "line": 14,
+    "column": 30
+  },
+  {
+    "type": "identifier",
+    "value": "i",
+    "line": 14,
+    "column": 32
+  },
+  {
+    "type": "operator",
+    "value": "++",
+    "line": 14,
+    "column": 33
+  },
+  {
+    "type": "separator",
+    "value": ")",
+    "line": 14,
+    "column": 35
+  },
+  {
+    "type": "separator",
+    "value": "{",
+    "line": 14,
+    "column": 37
+  },
+  {
+    "type": "identifier",
+    "value": "System",
+    "line": 15,
+    "column": 13
+  },
+  {
+    "type": "operator",
+    "value": ".",
+    "line": 15,
+    "column": 19
+  },
+  {
+    "type": "identifier",
+    "value": "out",
+    "line": 15,
+    "column": 20
+  },
+  {
+    "type": "operator",
+    "value": ".",
+    "line": 15,
+    "column": 23
+  },
+  {
+    "type": "identifier",
+    "value": "println",
+    "line": 15,
+    "column": 24
+  },
+  {
+    "type": "separator",
+    "value": "(",
+    "line": 15,
+    "column": 31
+  },
+  {
+    "type": "string",
+    "value": "\"Hello, World!\"",
+    "line": 15,
+    "column": 32
+  },
+  {
+    "type": "separator",
+    "value": ")",
+    "line": 15,
+    "column": 47
+  },
+  {
+    "type": "separator",
+    "value": ";",
+    "line": 15,
+    "column": 48
+  },
+  {
+    "type": "separator",
+    "value": "}",
+    "line": 16,
+    "column": 9
+  },
+  {
+    "type": "keyword",
+    "value": "while",
+    "line": 17,
+    "column": 9
+  },
+  {
+    "type": "separator",
+    "value": "(",
+    "line": 17,
+    "column": 15
+  },
+  {
+    "type": "identifier",
+    "value": "x",
+    "line": 17,
+    "column": 16
+  },
+  {
+    "type": "operator",
+    "value": ">",
+    "line": 17,
+    "column": 18
+  },
+  {
+    "type": "integer",
+    "value": "0",
+    "line": 17,
+    "column": 20
+  },
+  {
+    "type": "separator",
+    "value": ")",
+    "line": 17,
+    "column": 21
+  },
+  {
+    "type": "separator",
+    "value": "{",
+    "line": 17,
+    "column": 23
+  },
+  {
+    "type": "identifier",
+    "value": "System",
+    "line": 18,
+    "column": 13
+  },
+  {
+    "type": "operator",
+    "value": ".",
+    "line": 18,
+    "column": 19
+  },
+  {
+    "type": "identifier",
+    "value": "out",
+    "line": 18,
+    "column": 20
+  },
+  {
+    "type": "operator",
+    "value": ".",
+    "line": 18,
+    "column": 23
+  },
+  {
+    "type": "identifier",
+    "value": "println",
+    "line": 18,
+    "column": 24
+  },
+  {
+    "type": "separator",
+    "value": "(",
+    "line": 18,
+    "column": 31
+  },
+  {
+    "type": "string",
+    "value": "\"x is greater than 0\"",
+    "line": 18,
+    "column": 32
+  },
+  {
+    "type": "separator",
+    "value": ")",
+    "line": 18,
+    "column": 53
+  },
+  {
+    "type": "separator",
+    "value": ";",
+    "line": 18,
+    "column": 54
+  },
+  {
+    "type": "identifier",
+    "value": "x",
+    "line": 19,
+    "column": 13
+  },
+  {
+    "type": "operator",
+    "value": "--",
+    "line": 19,
+    "column": 14
+  },
+  {
+    "type": "separator",
+    "value": ";",
+    "line": 19,
+    "column": 16
+  },
+  {
+    "type": "separator",
+    "value": "}",
+    "line": 20,
+    "column": 9
+  },
+  {
+    "type": "keyword",
+    "value": "switch",
+    "line": 21,
+    "column": 9
+  },
+  {
+    "type": "separator",
+    "value": "(",
+    "line": 21,
+    "column": 16
+  },
+  {
+    "type": "identifier",
+    "value": "x",
+    "line": 21,
+    "column": 17
+  },
+  {
+    "type": "separator",
+    "value": ")",
+    "line": 21,
+    "column": 18
+  },
+  {
+    "type": "separator",
+    "value": "{",
+    "line": 21,
+    "column": 20
+  },
+  {
+    "type": "keyword",
+    "value": "case",
+    "line": 22,
+    "column": 13
+  },
+  {
+    "type": "integer",
+    "value": "0",
+    "line": 22,
+    "column": 18
+  },
+  {
+    "type": "operator",
+    "value": ":",
+    "line": 22,
+    "column": 19
+  },
+  {
+    "type": "identifier",
+    "value": "System",
+    "line": 23,
+    "column": 17
+  },
+  {
+    "type": "operator",
+    "value": ".",
+    "line": 23,
+    "column": 23
+  },
+  {
+    "type": "identifier",
+    "value": "out",
+    "line": 23,
+    "column": 24
+  },
+  {
+    "type": "operator",
+    "value": ".",
+    "line": 23,
+    "column": 27
+  },
+  {
+    "type": "identifier",
+    "value": "println",
+    "line": 23,
+    "column": 28
+  },
+  {
+    "type": "separator",
+    "value": "(",
+    "line": 23,
+    "column": 35
+  },
+  {
+    "type": "string",
+    "value": "\"x is equal to 0\"",
+    "line": 23,
+    "column": 36
+  },
+  {
+    "type": "separator",
+    "value": ")",
+    "line": 23,
+    "column": 53
+  },
+  {
+    "type": "separator",
+    "value": ";",
+    "line": 23,
+    "column": 54
+  },
+  {
+    "type": "keyword",
+    "value": "break",
+    "line": 24,
+    "column": 17
+  },
+  {
+    "type": "separator",
+    "value": ";",
+    "line": 24,
+    "column": 22
+  },
+  {
+    "type": "keyword",
+    "value": "case",
+    "line": 25,
+    "column": 13
+  },
+  {
+    "type": "integer",
+    "value": "1",
+    "line": 25,
+    "column": 18
+  },
+  {
+    "type": "operator",
+    "value": ":",
+    "line": 25,
+    "column": 19
+  },
+  {
+    "type": "identifier",
+    "value": "System",
+    "line": 26,
+    "column": 17
+  },
+  {
+    "type": "operator",
+    "value": ".",
+    "line": 26,
+    "column": 23
+  },
+  {
+    "type": "identifier",
+    "value": "out",
+    "line": 26,
+    "column": 24
+  },
+  {
+    "type": "operator",
+    "value": ".",
+    "line": 26,
+    "column": 27
+  },
+  {
+    "type": "identifier",
+    "value": "println",
+    "line": 26,
+    "column": 28
+  },
+  {
+    "type": "separator",
+    "value": "(",
+    "line": 26,
+    "column": 35
+  },
+  {
+    "type": "string",
+    "value": "\"x is equal to 1\"",
+    "line": 26,
+    "column": 36
+  },
+  {
+    "type": "separator",
+    "value": ")",
+    "line": 26,
+    "column": 53
+  },
+  {
+    "type": "separator",
+    "value": ";",
+    "line": 26,
+    "column": 54
+  },
+  {
+    "type": "keyword",
+    "value": "break",
+    "line": 27,
+    "column": 17
+  },
+  {
+    "type": "separator",
+    "value": ";",
+    "line": 27,
+    "column": 22
+  },
+  {
+    "type": "keyword",
+    "value": "default",
+    "line": 28,
+    "column": 13
+  },
+  {
+    "type": "operator",
+    "value": ":",
+    "line": 28,
+    "column": 20
+  },
+  {
+    "type": "identifier",
+    "value": "System",
+    "line": 29,
+    "column": 17
+  },
+  {
+    "type": "operator",
+    "value": ".",
+    "line": 29,
+    "column": 23
+  },
+  {
+    "type": "identifier",
+    "value": "out",
+    "line": 29,
+    "column": 24
+  },
+  {
+    "type": "operator",
+    "value": ".",
+    "line": 29,
+    "column": 27
+  },
+  {
+    "type": "identifier",
+    "value": "println",
+    "line": 29,
+    "column": 28
+  },
+  {
+    "type": "separator",
+    "value": "(",
+    "line": 29,
+    "column": 35
+  },
+  {
+    "type": "string",
+    "value": "\"x is greater than 1\"",
+    "line": 29,
+    "column": 36
+  },
+  {
+    "type": "separator",
+    "value": ")",
+    "line": 29,
+    "column": 57
+  },
+  {
+    "type": "separator",
+    "value": ";",
+    "line": 29,
+    "column": 58
+  },
+  {
+    "type": "separator",
+    "value": "}",
+    "line": 30,
+    "column": 9
+  },
+  {
+    "type": "separator",
+    "value": "}",
+    "line": 31,
+    "column": 5
+  },
+  {
+    "type": "separator",
+    "value": "}",
+    "line": 32,
+    "column": 1
+  }
+]
