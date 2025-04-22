@@ -4,6 +4,7 @@ import java.util.Stack;
 // nothing
 public class DSA {
     boolean isTrue = true;
+    // boolean isTrue = true;
     double pi = 3.14;
     public static void main(String[] args) {
         reverseArray();
