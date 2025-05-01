@@ -105,6 +105,43 @@
     "line": 5
   },
   {
+    "type": "unknown",
+    "value": "//",
+    "line": 5,
+    "error": "Invalid token: \"//\""
+  },
+  {
+    "type": "identifier",
+    "value": "Returns",
+    "line": 5
+  },
+  {
+    "type": "keyword",
+    "value": "true",
+    "line": 5
+  },
+  {
+    "type": "keyword",
+    "value": "if",
+    "line": 5
+  },
+  {
+    "type": "identifier",
+    "value": "c",
+    "line": 5
+  },
+  {
+    "type": "identifier",
+    "value": "is",
+    "line": 5
+  },
+  {
+    "type": "unknown",
+    "value": "prime.",
+    "line": 5,
+    "error": "Invalid token: \"prime.\""
+  },
+  {
     "type": "separator",
     "value": "{",
     "line": 6
@@ -230,6 +267,49 @@
     "line": 11
   },
   {
+    "type": "unknown",
+    "value": "//",
+    "line": 11,
+    "error": "Invalid token: \"//\""
+  },
+  {
+    "type": "identifier",
+    "value": "If",
+    "line": 11
+  },
+  {
+    "type": "identifier",
+    "value": "c",
+    "line": 11
+  },
+  {
+    "type": "operator",
+    "value": "<",
+    "line": 11
+  },
+  {
+    "type": "number",
+    "value": "0",
+    "line": 11
+  },
+  {
+    "type": "unknown",
+    "value": "we're",
+    "line": 11,
+    "error": "Invalid token: \"we're\""
+  },
+  {
+    "type": "identifier",
+    "value": "in",
+    "line": 11
+  },
+  {
+    "type": "unknown",
+    "value": "trouble!",
+    "line": 11,
+    "error": "Invalid token: \"trouble!\""
+  },
+  {
     "type": "separator",
     "value": "{",
     "line": 12
@@ -345,7 +425,7 @@
     "line": 17
   },
   {
-    "type": "string_literal",
+    "type": "literal",
     "value": "\"This is a useless string literal\"",
     "line": 17
   },
@@ -368,6 +448,39 @@
     "type": "separator",
     "value": "}",
     "line": 19
+  },
+  {
+    "type": "unknown",
+    "value": "/*",
+    "line": 21,
+    "error": "Invalid token: \"/*\""
+  },
+  {
+    "type": "identifier",
+    "value": "Find",
+    "line": 21
+  },
+  {
+    "type": "identifier",
+    "value": "greatest",
+    "line": 21
+  },
+  {
+    "type": "identifier",
+    "value": "common",
+    "line": 22
+  },
+  {
+    "type": "unknown",
+    "value": "divisor.",
+    "line": 22,
+    "error": "Invalid token: \"divisor.\""
+  },
+  {
+    "type": "unknown",
+    "value": "*/",
+    "line": 22,
+    "error": "Invalid token: \"*/\""
   },
   {
     "type": "keyword",
@@ -440,8 +553,8 @@
     "line": 25
   },
   {
-    "type": "string_literal",
-    "value": "\" This is an invalid string literal",
+    "type": "literal",
+    "value": "\" This is an invalid string literal  /// error",
     "line": 25,
     "error": "Unclosed string literal"
   },
@@ -475,6 +588,12 @@
     "type": "separator",
     "value": ";",
     "line": 27
+  },
+  {
+    "type": "unknown",
+    "value": "///error",
+    "line": 27,
+    "error": "Invalid token: \"///error\""
   },
   {
     "type": "identifier",
@@ -635,6 +754,34 @@
     "type": "separator",
     "value": ")",
     "line": 35
+  },
+  {
+    "type": "unknown",
+    "value": "//",
+    "line": 35,
+    "error": "Invalid token: \"//\""
+  },
+  {
+    "type": "identifier",
+    "value": "Find",
+    "line": 35
+  },
+  {
+    "type": "unknown",
+    "value": "n-th",
+    "line": 35,
+    "error": "Invalid token: \"n-th\""
+  },
+  {
+    "type": "identifier",
+    "value": "Fibonacci",
+    "line": 35
+  },
+  {
+    "type": "unknown",
+    "value": "number.",
+    "line": 35,
+    "error": "Invalid token: \"number.\""
   },
   {
     "type": "separator",

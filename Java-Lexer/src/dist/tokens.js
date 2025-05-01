@@ -1,13 +1,11 @@
-function escapeRegex(value: string): string {
-    return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-}
-
 export const javaOperators = [
+    // Arithmetic
     "+",
     "-",
     "*",
     "/",
     "%",
+    // Assignment
     "=",
     "+=",
     "-=",
@@ -20,17 +18,21 @@ export const javaOperators = [
     "<<=",
     ">>=",
     ">>>=",
+    // Increment/Decrement
     "++",
     "--",
+    // Relational
     "==",
     "!=",
     ">",
     "<",
     ">=",
     "<=",
+    // Logical
     "&&",
     "||",
     "!",
+    // Bitwise
     "&",
     "|",
     "^",
@@ -38,12 +40,13 @@ export const javaOperators = [
     "<<",
     ">>",
     ">>>",
+    // Ternary
     "?",
     ":",
+    // Lambda / Method Reference
     "->",
     "::",
 ];
-
 export const javaKeywords = [
     "abstract",
     "assert",
@@ -100,57 +103,17 @@ export const javaKeywords = [
     "null",
     "var",
 ];
-
 export const javaSeparators = [
     "(",
     ")",
     "{",
     "}",
     "[",
-    "]",
+    "]", // Brackets
     ";",
     ",",
-    ".",
-    "@",
+    ".", // Statement-related
+    "@", // Annotation
     "...",
-    "::",
+    "::", // Varargs and method reference
 ];
-
-export const patterns = {
-    // Matches any keyword
-    KEYWORD: {
-        regex: new RegExp(`^(${javaKeywords.join("|")})$`),
-        type: "KEYWORD",
-    },
-
-    // Matches any operator
-    OPERATOR: {
-        regex: new RegExp(`^(${javaOperators.map(escapeRegex).join("|")})$`),
-        type: "OPERATOR",
-    },
-
-    // Matches any separator
-    SEPARATOR: {
-        regex: new RegExp(`^(${javaSeparators.map(escapeRegex).join("|")})$`),
-        type: "SEPARATOR",
-    },
-
-    // Matches string literals
-    STRING_LITERAL: {
-        // regex: /^"(?:[^"\\]|\\.)*"$/,
-        regex: /^".*"$/,
-        type: "STRING_LITERAL",
-    },
-
-    // Matches valid identifiers
-    Identifier: {
-        regex: /^[a-zA-Z_$][a-zA-Z0-9_$]*$/,
-        type: "Identifier",
-    },
-
-    // Matches numbers (integers or decimals)
-    NUMBER: {
-        regex: /^\d+(\.\d+)?$/,
-        type: "NUMBER",
-    },
-};

@@ -1,0 +1,26 @@
+{
+    "name": "lexer",
+    "version": "1.0.0",
+    "main": "./src/main.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "watch": "tsc --watch",
+        "dev": "nodemon src/dist/main.js",
+        "once": "node src/dist/main.js"
+    },
+    "type": "module",
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "chevrotain": "^11.0.3",
+        "java-parser": "^2.3.3",
+        "lexer": "file:",
+        "moo": "^0.5.2",
+        "nodemon": "^3.1.9"
+    },
+    "devDependencies": {
+        "@types/node": "^22.14.0"
+    }
+}

@@ -1,0 +1,2492 @@
+[
+  {
+    "type": "Semicolon",
+    "value": ";",
+    "startLine": 1,
+    "startColumn": 24
+  },
+  {
+    "type": "Dot",
+    "value": ".",
+    "startLine": 1,
+    "startColumn": 12
+  },
+  {
+    "type": "Dot",
+    "value": ".",
+    "startLine": 1,
+    "startColumn": 17
+  },
+  {
+    "type": "Identifier",
+    "value": "java",
+    "startLine": 1,
+    "startColumn": 8
+  },
+  {
+    "type": "Identifier",
+    "value": "util",
+    "startLine": 1,
+    "startColumn": 13
+  },
+  {
+    "type": "Identifier",
+    "value": "Arrays",
+    "startLine": 1,
+    "startColumn": 18
+  },
+  {
+    "type": "Import",
+    "value": "import",
+    "startLine": 1,
+    "startColumn": 1
+  },
+  {
+    "type": "Semicolon",
+    "value": ";",
+    "startLine": 2,
+    "startColumn": 23
+  },
+  {
+    "type": "Dot",
+    "value": ".",
+    "startLine": 2,
+    "startColumn": 12
+  },
+  {
+    "type": "Dot",
+    "value": ".",
+    "startLine": 2,
+    "startColumn": 17
+  },
+  {
+    "type": "Identifier",
+    "value": "java",
+    "startLine": 2,
+    "startColumn": 8
+  },
+  {
+    "type": "Identifier",
+    "value": "util",
+    "startLine": 2,
+    "startColumn": 13
+  },
+  {
+    "type": "Identifier",
+    "value": "Stack",
+    "startLine": 2,
+    "startColumn": 18
+  },
+  {
+    "type": "Import",
+    "value": "import",
+    "startLine": 2,
+    "startColumn": 1
+  },
+  {
+    "type": "LCurly",
+    "value": "{",
+    "startLine": 5,
+    "startColumn": 18
+  },
+  {
+    "type": "Identifier",
+    "value": "DSA",
+    "startLine": 5,
+    "startColumn": 14
+  },
+  {
+    "type": "Class",
+    "value": "class",
+    "startLine": 5,
+    "startColumn": 8
+  },
+  {
+    "type": "Public",
+    "value": "public",
+    "startLine": 5,
+    "startColumn": 1
+  },
+  {
+    "type": "Semicolon",
+    "value": ";",
+    "startLine": 6,
+    "startColumn": 26
+  },
+  {
+    "type": "True",
+    "value": "true",
+    "startLine": 6,
+    "startColumn": 22
+  },
+  {
+    "type": "Equals",
+    "value": "=",
+    "startLine": 6,
+    "startColumn": 20
+  },
+  {
+    "type": "Identifier",
+    "value": "isTrue",
+    "startLine": 6,
+    "startColumn": 13
+  },
+  {
+    "type": "Boolean",
+    "value": "boolean",
+    "startLine": 6,
+    "startColumn": 5
+  },
+  {
+    "type": "Semicolon",
+    "value": ";",
+    "startLine": 8,
+    "startColumn": 21
+  },
+  {
+    "type": "FloatLiteral",
+    "value": "3.14",
+    "startLine": 8,
+    "startColumn": 17
+  },
+  {
+    "type": "Equals",
+    "value": "=",
+    "startLine": 8,
+    "startColumn": 15
+  },
+  {
+    "type": "Identifier",
+    "value": "pi",
+    "startLine": 8,
+    "startColumn": 12
+  },
+  {
+    "type": "Double",
+    "value": "double",
+    "startLine": 8,
+    "startColumn": 5
+  },
+  {
+    "type": "LCurly",
+    "value": "{",
+    "startLine": 9,
+    "startColumn": 44
+  },
+  {
+    "type": "RBrace",
+    "value": ")",
+    "startLine": 9,
+    "startColumn": 42
+  },
+  {
+    "type": "Identifier",
+    "value": "args",
+    "startLine": 9,
+    "startColumn": 38
+  },
+  {
+    "type": "RSquare",
+    "value": "]",
+    "startLine": 9,
+    "startColumn": 36
+  },
+  {
+    "type": "LSquare",
+    "value": "[",
+    "startLine": 9,
+    "startColumn": 35
+  },
+  {
+    "type": "Identifier",
+    "value": "String",
+    "startLine": 9,
+    "startColumn": 29
+  },
+  {
+    "type": "LBrace",
+    "value": "(",
+    "startLine": 9,
+    "startColumn": 28
+  },
+  {
+    "type": "Identifier",
+    "value": "main",
+    "startLine": 9,
+    "startColumn": 24
+  },
+  {
+    "type": "Void",
+    "value": "void",
+    "startLine": 9,
+    "startColumn": 19
+  },
+  {
+    "type": "Public",
+    "value": "public",
+    "startLine": 9,
+    "startColumn": 5
+  },
+  {
+    "type": "Static",
+    "value": "static",
+    "startLine": 9,
+    "startColumn": 12
+  },
+  {
+    "type": "Semicolon",
+    "value": ";",
+    "startLine": 10,
+    "startColumn": 23
+  },
+  {
+    "type": "RBrace",
+    "value": ")",
+    "startLine": 10,
+    "startColumn": 22
+  },
+  {
+    "type": "LBrace",
+    "value": "(",
+    "startLine": 10,
+    "startColumn": 21
+  },
+  {
+    "type": "Identifier",
+    "value": "reverseArray",
+    "startLine": 10,
+    "startColumn": 9
+  },
+  {
+    "type": "RCurly",
+    "value": "}",
+    "startLine": 11,
+    "startColumn": 5
+  },
+  {
+    "type": "LCurly",
+    "value": "{",
+    "startLine": 13,
+    "startColumn": 45
+  },
+  {
+    "type": "RBrace",
+    "value": ")",
+    "startLine": 13,
+    "startColumn": 43
+  },
+  {
+    "type": "Identifier",
+    "value": "str",
+    "startLine": 13,
+    "startColumn": 40
+  },
+  {
+    "type": "Identifier",
+    "value": "String",
+    "startLine": 13,
+    "startColumn": 33
+  },
+  {
+    "type": "LBrace",
+    "value": "(",
+    "startLine": 13,
+    "startColumn": 32
+  },
+  {
+    "type": "Identifier",
+    "value": "matchingPars",
+    "startLine": 13,
+    "startColumn": 20
+  },
+  {
+    "type": "Boolean",
+    "value": "boolean",
+    "startLine": 13,
+    "startColumn": 12
+  },
+  {
+    "type": "Static",
+    "value": "static",
+    "startLine": 13,
+    "startColumn": 5
+  },
+  {
+    "type": "Semicolon",
+    "value": ";",
+    "startLine": 14,
+    "startColumn": 47
+  },
+  {
+    "type": "RBrace",
+    "value": ")",
+    "startLine": 14,
+    "startColumn": 46
+  },
+  {
+    "type": "LBrace",
+    "value": "(",
+    "startLine": 14,
+    "startColumn": 45
+  },
+  {
+    "type": "Greater",
+    "value": ">",
+    "startLine": 14,
+    "startColumn": 44
+  },
+  {
+    "type": "Less",
+    "value": "<",
+    "startLine": 14,
+    "startColumn": 43
+  },
+  {
+    "type": "Identifier",
+    "value": "Stack",
+    "startLine": 14,
+    "startColumn": 38
+  },
+  {
+    "type": "New",
+    "value": "new",
+    "startLine": 14,
+    "startColumn": 34
+  },
+  {
+    "type": "Equals",
+    "value": "=",
+    "startLine": 14,
+    "startColumn": 32
+  },
+  {
+    "type": "Identifier",
+    "value": "stack",
+    "startLine": 14,
+    "startColumn": 26
+  },
+  {
+    "type": "Greater",
+    "value": ">",
+    "startLine": 14,
+    "startColumn": 24
+  },
+  {
+    "type": "Identifier",
+    "value": "Character",
+    "startLine": 14,
+    "startColumn": 15
+  },
+  {
+    "type": "Less",
+    "value": "<",
+    "startLine": 14,
+    "startColumn": 14
+  },
+  {
+    "type": "Identifier",
+    "value": "Stack",
+    "startLine": 14,
+    "startColumn": 9
+  },
+  {
+    "type": "LCurly",
+    "value": "{",
+    "startLine": 16,
+    "startColumn": 47
+  },
+  {
+    "type": "RBrace",
+    "value": ")",
+    "startLine": 16,
+    "startColumn": 45
+  },
+  {
+    "type": "PlusPlus",
+    "value": "++",
+    "startLine": 16,
+    "startColumn": 43
+  },
+  {
+    "type": "Identifier",
+    "value": "i",
+    "startLine": 16,
+    "startColumn": 42
+  },
+  {
+    "type": "Less",
+    "value": "<",
+    "startLine": 16,
+    "startColumn": 26
+  },
+  {
+    "type": "Identifier",
+    "value": "i",
+    "startLine": 16,
+    "startColumn": 24
+  },
+  {
+    "type": "RBrace",
+    "value": ")",
+    "startLine": 16,
+    "startColumn": 39
+  },
+  {
+    "type": "LBrace",
+    "value": "(",
+    "startLine": 16,
+    "startColumn": 38
+  },
+  {
+    "type": "Identifier",
+    "value": "length",
+    "startLine": 16,
+    "startColumn": 32
+  },
+  {
+    "type": "Dot",
+    "value": ".",
+    "startLine": 16,
+    "startColumn": 31
+  },
+  {
+    "type": "Identifier",
+    "value": "str",
+    "startLine": 16,
+    "startColumn": 28
+  },
+  {
+    "type": "Semicolon",
+    "value": ";",
+    "startLine": 16,
+    "startColumn": 22
+  },
+  {
+    "type": "Semicolon",
+    "value": ";",
+    "startLine": 16,
+    "startColumn": 40
+  },
+  {
+    "type": "DecimalLiteral",
+    "value": "0",
+    "startLine": 16,
+    "startColumn": 21
+  },
+  {
+    "type": "Equals",
+    "value": "=",
+    "startLine": 16,
+    "startColumn": 19
+  },
+  {
+    "type": "Identifier",
+    "value": "i",
+    "startLine": 16,
+    "startColumn": 17
+  },
+  {
+    "type": "Int",
+    "value": "int",
+    "startLine": 16,
+    "startColumn": 13
+  },
+  {
+    "type": "LBrace",
+    "value": "(",
+    "startLine": 16,
+    "startColumn": 12
+  },
+  {
+    "type": "For",
+    "value": "for",
+    "startLine": 16,
+    "startColumn": 9
+  },
+  {
+    "type": "Semicolon",
+    "value": ";",
+    "startLine": 17,
+    "startColumn": 36
+  },
+  {
+    "type": "RBrace",
+    "value": ")",
+    "startLine": 17,
+    "startColumn": 35
+  },
+  {
+    "type": "Identifier",
+    "value": "i",
+    "startLine": 17,
+    "startColumn": 34
+  },
+  {
+    "type": "LBrace",
+    "value": "(",
+    "startLine": 17,
+    "startColumn": 33
+  },
+  {
+    "type": "Identifier",
+    "value": "charAt",
+    "startLine": 17,
+    "startColumn": 27
+  },
+  {
+    "type": "Dot",
+    "value": ".",
+    "startLine": 17,
+    "startColumn": 26
+  },
+  {
+    "type": "Identifier",
+    "value": "str",
+    "startLine": 17,
+    "startColumn": 23
+  },
+  {
+    "type": "Equals",
+    "value": "=",
+    "startLine": 17,
+    "startColumn": 21
+  },
+  {
+    "type": "Identifier",
+    "value": "ch",
+    "startLine": 17,
+    "startColumn": 18
+  },
+  {
+    "type": "Char",
+    "value": "char",
+    "startLine": 17,
+    "startColumn": 13
+  },
+  {
+    "type": "Semicolon",
+    "value": ";",
+    "startLine": 18,
+    "startColumn": 63
+  },
+  {
+    "type": "EqualsEquals",
+    "value": "==",
+    "startLine": 18,
+    "startColumn": 31
+  },
+  {
+    "type": "OrOr",
+    "value": "||",
+    "startLine": 18,
+    "startColumn": 38
+  },
+  {
+    "type": "EqualsEquals",
+    "value": "==",
+    "startLine": 18,
+    "startColumn": 44
+  },
+  {
+    "type": "OrOr",
+    "value": "||",
+    "startLine": 18,
+    "startColumn": 51
+  },
+  {
+    "type": "EqualsEquals",
+    "value": "==",
+    "startLine": 18,
+    "startColumn": 57
+  },
+  {
+    "type": "Identifier",
+    "value": "ch",
+    "startLine": 18,
+    "startColumn": 28
+  },
+  {
+    "type": "CharLiteral",
+    "value": "'('",
+    "startLine": 18,
+    "startColumn": 34
+  },
+  {
+    "type": "Identifier",
+    "value": "ch",
+    "startLine": 18,
+    "startColumn": 41
+  },
+  {
+    "type": "CharLiteral",
+    "value": "'['",
+    "startLine": 18,
+    "startColumn": 47
+  },
+  {
+    "type": "Identifier",
+    "value": "ch",
+    "startLine": 18,
+    "startColumn": 54
+  },
+  {
+    "type": "CharLiteral",
+    "value": "'{'",
+    "startLine": 18,
+    "startColumn": 60
+  },
+  {
+    "type": "Equals",
+    "value": "=",
+    "startLine": 18,
+    "startColumn": 26
+  },
+  {
+    "type": "Open",
+    "value": "open",
+    "startLine": 18,
+    "startColumn": 21
+  },
+  {
+    "type": "Boolean",
+    "value": "boolean",
+    "startLine": 18,
+    "startColumn": 13
+  },
+  {
+    "type": "Semicolon",
+    "value": ";",
+    "startLine": 19,
+    "startColumn": 64
+  },
+  {
+    "type": "EqualsEquals",
+    "value": "==",
+    "startLine": 19,
+    "startColumn": 32
+  },
+  {
+    "type": "OrOr",
+    "value": "||",
+    "startLine": 19,
+    "startColumn": 39
+  },
+  {
+    "type": "EqualsEquals",
+    "value": "==",
+    "startLine": 19,
+    "startColumn": 45
+  },
+  {
+    "type": "OrOr",
+    "value": "||",
+    "startLine": 19,
+    "startColumn": 52
+  },
+  {
+    "type": "EqualsEquals",
+    "value": "==",
+    "startLine": 19,
+    "startColumn": 58
+  },
+  {
+    "type": "Identifier",
+    "value": "ch",
+    "startLine": 19,
+    "startColumn": 29
+  },
+  {
+    "type": "CharLiteral",
+    "value": "')'",
+    "startLine": 19,
+    "startColumn": 35
+  },
+  {
+    "type": "Identifier",
+    "value": "ch",
+    "startLine": 19,
+    "startColumn": 42
+  },
+  {
+    "type": "CharLiteral",
+    "value": "']'",
+    "startLine": 19,
+    "startColumn": 48
+  },
+  {
+    "type": "Identifier",
+    "value": "ch",
+    "startLine": 19,
+    "startColumn": 55
+  },
+  {
+    "type": "CharLiteral",
+    "value": "'}'",
+    "startLine": 19,
+    "startColumn": 61
+  },
+  {
+    "type": "Equals",
+    "value": "=",
+    "startLine": 19,
+    "startColumn": 27
+  },
+  {
+    "type": "Identifier",
+    "value": "close",
+    "startLine": 19,
+    "startColumn": 21
+  },
+  {
+    "type": "Boolean",
+    "value": "boolean",
+    "startLine": 19,
+    "startColumn": 13
+  },
+  {
+    "type": "Semicolon",
+    "value": ";",
+    "startLine": 21,
+    "startColumn": 41
+  },
+  {
+    "type": "Continue",
+    "value": "continue",
+    "startLine": 21,
+    "startColumn": 33
+  },
+  {
+    "type": "RBrace",
+    "value": ")",
+    "startLine": 21,
+    "startColumn": 31
+  },
+  {
+    "type": "AndAnd",
+    "value": "&&",
+    "startLine": 21,
+    "startColumn": 22
+  },
+  {
+    "type": "Open",
+    "value": "open",
+    "startLine": 21,
+    "startColumn": 17
+  },
+  {
+    "type": "Not",
+    "value": "!",
+    "startLine": 21,
+    "startColumn": 16
+  },
+  {
+    "type": "Identifier",
+    "value": "close",
+    "startLine": 21,
+    "startColumn": 26
+  },
+  {
+    "type": "Not",
+    "value": "!",
+    "startLine": 21,
+    "startColumn": 25
+  },
+  {
+    "type": "LBrace",
+    "value": "(",
+    "startLine": 21,
+    "startColumn": 15
+  },
+  {
+    "type": "If",
+    "value": "if",
+    "startLine": 21,
+    "startColumn": 13
+  },
+  {
+    "type": "Semicolon",
+    "value": ";",
+    "startLine": 22,
+    "startColumn": 54
+  },
+  {
+    "type": "False",
+    "value": "false",
+    "startLine": 22,
+    "startColumn": 49
+  },
+  {
+    "type": "Return",
+    "value": "return",
+    "startLine": 22,
+    "startColumn": 42
+  },
+  {
+    "type": "RBrace",
+    "value": ")",
+    "startLine": 22,
+    "startColumn": 40
+  },
+  {
+    "type": "AndAnd",
+    "value": "&&",
+    "startLine": 22,
+    "startColumn": 22
+  },
+  {
+    "type": "Identifier",
+    "value": "close",
+    "startLine": 22,
+    "startColumn": 16
+  },
+  {
+    "type": "RBrace",
+    "value": ")",
+    "startLine": 22,
+    "startColumn": 39
+  },
+  {
+    "type": "LBrace",
+    "value": "(",
+    "startLine": 22,
+    "startColumn": 38
+  },
+  {
+    "type": "Identifier",
+    "value": "isEmpty",
+    "startLine": 22,
+    "startColumn": 31
+  },
+  {
+    "type": "Dot",
+    "value": ".",
+    "startLine": 22,
+    "startColumn": 30
+  },
+  {
+    "type": "Identifier",
+    "value": "stack",
+    "startLine": 22,
+    "startColumn": 25
+  },
+  {
+    "type": "LBrace",
+    "value": "(",
+    "startLine": 22,
+    "startColumn": 15
+  },
+  {
+    "type": "If",
+    "value": "if",
+    "startLine": 22,
+    "startColumn": 13
+  },
+  {
+    "type": "LCurly",
+    "value": "{",
+    "startLine": 24,
+    "startColumn": 22
+  },
+  {
+    "type": "RBrace",
+    "value": ")",
+    "startLine": 24,
+    "startColumn": 20
+  },
+  {
+    "type": "Open",
+    "value": "open",
+    "startLine": 24,
+    "startColumn": 16
+  },
+  {
+    "type": "LBrace",
+    "value": "(",
+    "startLine": 24,
+    "startColumn": 15
+  },
+  {
+    "type": "If",
+    "value": "if",
+    "startLine": 24,
+    "startColumn": 13
+  },
+  {
+    "type": "Semicolon",
+    "value": ";",
+    "startLine": 25,
+    "startColumn": 31
+  },
+  {
+    "type": "RBrace",
+    "value": ")",
+    "startLine": 25,
+    "startColumn": 30
+  },
+  {
+    "type": "Identifier",
+    "value": "ch",
+    "startLine": 25,
+    "startColumn": 28
+  },
+  {
+    "type": "LBrace",
+    "value": "(",
+    "startLine": 25,
+    "startColumn": 27
+  },
+  {
+    "type": "Identifier",
+    "value": "push",
+    "startLine": 25,
+    "startColumn": 23
+  },
+  {
+    "type": "Dot",
+    "value": ".",
+    "startLine": 25,
+    "startColumn": 22
+  },
+  {
+    "type": "Identifier",
+    "value": "stack",
+    "startLine": 25,
+    "startColumn": 17
+  },
+  {
+    "type": "Else",
+    "value": "else",
+    "startLine": 26,
+    "startColumn": 15
+  },
+  {
+    "type": "RCurly",
+    "value": "}",
+    "startLine": 26,
+    "startColumn": 13
+  },
+  {
+    "type": "LCurly",
+    "value": "{",
+    "startLine": 26,
+    "startColumn": 20
+  },
+  {
+    "type": "Semicolon",
+    "value": ";",
+    "startLine": 27,
+    "startColumn": 40
+  },
+  {
+    "type": "RBrace",
+    "value": ")",
+    "startLine": 27,
+    "startColumn": 39
+  },
+  {
+    "type": "LBrace",
+    "value": "(",
+    "startLine": 27,
+    "startColumn": 38
+  },
+  {
+    "type": "Identifier",
+    "value": "pop",
+    "startLine": 27,
+    "startColumn": 35
+  },
+  {
+    "type": "Dot",
+    "value": ".",
+    "startLine": 27,
+    "startColumn": 34
+  },
+  {
+    "type": "Identifier",
+    "value": "stack",
+    "startLine": 27,
+    "startColumn": 29
+  },
+  {
+    "type": "Equals",
+    "value": "=",
+    "startLine": 27,
+    "startColumn": 27
+  },
+  {
+    "type": "Identifier",
+    "value": "last",
+    "startLine": 27,
+    "startColumn": 22
+  },
+  {
+    "type": "Char",
+    "value": "char",
+    "startLine": 27,
+    "startColumn": 17
+  },
+  {
+    "type": "LBrace",
+    "value": "(",
+    "startLine": 29,
+    "startColumn": 19
+  },
+  {
+    "type": "If",
+    "value": "if",
+    "startLine": 29,
+    "startColumn": 17
+  },
+  {
+    "type": "OrOr",
+    "value": "||",
+    "startLine": 30,
+    "startColumn": 52
+  },
+  {
+    "type": "RBrace",
+    "value": ")",
+    "startLine": 30,
+    "startColumn": 50
+  },
+  {
+    "type": "AndAnd",
+    "value": "&&",
+    "startLine": 30,
+    "startColumn": 36
+  },
+  {
+    "type": "RBrace",
+    "value": ")",
+    "startLine": 30,
+    "startColumn": 34
+  },
+  {
+    "type": "EqualsEquals",
+    "value": "==",
+    "startLine": 30,
+    "startColumn": 28
+  },
+  {
+    "type": "Identifier",
+    "value": "last",
+    "startLine": 30,
+    "startColumn": 23
+  },
+  {
+    "type": "CharLiteral",
+    "value": "'('",
+    "startLine": 30,
+    "startColumn": 31
+  },
+  {
+    "type": "LBrace",
+    "value": "(",
+    "startLine": 30,
+    "startColumn": 22
+  },
+  {
+    "type": "RBrace",
+    "value": ")",
+    "startLine": 30,
+    "startColumn": 49
+  },
+  {
+    "type": "NotEquals",
+    "value": "!=",
+    "startLine": 30,
+    "startColumn": 43
+  },
+  {
+    "type": "Identifier",
+    "value": "ch",
+    "startLine": 30,
+    "startColumn": 40
+  },
+  {
+    "type": "CharLiteral",
+    "value": "')'",
+    "startLine": 30,
+    "startColumn": 46
+  },
+  {
+    "type": "LBrace",
+    "value": "(",
+    "startLine": 30,
+    "startColumn": 39
+  },
+  {
+    "type": "LBrace",
+    "value": "(",
+    "startLine": 30,
+    "startColumn": 21
+  },
+  {
+    "type": "OrOr",
+    "value": "||",
+    "startLine": 31,
+    "startColumn": 52
+  },
+  {
+    "type": "RBrace",
+    "value": ")",
+    "startLine": 31,
+    "startColumn": 50
+  },
+  {
+    "type": "AndAnd",
+    "value": "&&",
+    "startLine": 31,
+    "startColumn": 36
+  },
+  {
+    "type": "RBrace",
+    "value": ")",
+    "startLine": 31,
+    "startColumn": 34
+  },
+  {
+    "type": "EqualsEquals",
+    "value": "==",
+    "startLine": 31,
+    "startColumn": 28
+  },
+  {
+    "type": "Identifier",
+    "value": "last",
+    "startLine": 31,
+    "startColumn": 23
+  },
+  {
+    "type": "CharLiteral",
+    "value": "'{'",
+    "startLine": 31,
+    "startColumn": 31
+  },
+  {
+    "type": "LBrace",
+    "value": "(",
+    "startLine": 31,
+    "startColumn": 22
+  },
+  {
+    "type": "RBrace",
+    "value": ")",
+    "startLine": 31,
+    "startColumn": 49
+  },
+  {
+    "type": "NotEquals",
+    "value": "!=",
+    "startLine": 31,
+    "startColumn": 43
+  },
+  {
+    "type": "Identifier",
+    "value": "ch",
+    "startLine": 31,
+    "startColumn": 40
+  },
+  {
+    "type": "CharLiteral",
+    "value": "'}'",
+    "startLine": 31,
+    "startColumn": 46
+  },
+  {
+    "type": "LBrace",
+    "value": "(",
+    "startLine": 31,
+    "startColumn": 39
+  },
+  {
+    "type": "LBrace",
+    "value": "(",
+    "startLine": 31,
+    "startColumn": 21
+  },
+  {
+    "type": "RBrace",
+    "value": ")",
+    "startLine": 32,
+    "startColumn": 50
+  },
+  {
+    "type": "AndAnd",
+    "value": "&&",
+    "startLine": 32,
+    "startColumn": 36
+  },
+  {
+    "type": "RBrace",
+    "value": ")",
+    "startLine": 32,
+    "startColumn": 34
+  },
+  {
+    "type": "EqualsEquals",
+    "value": "==",
+    "startLine": 32,
+    "startColumn": 28
+  },
+  {
+    "type": "Identifier",
+    "value": "last",
+    "startLine": 32,
+    "startColumn": 23
+  },
+  {
+    "type": "CharLiteral",
+    "value": "'['",
+    "startLine": 32,
+    "startColumn": 31
+  },
+  {
+    "type": "LBrace",
+    "value": "(",
+    "startLine": 32,
+    "startColumn": 22
+  },
+  {
+    "type": "RBrace",
+    "value": ")",
+    "startLine": 32,
+    "startColumn": 49
+  },
+  {
+    "type": "NotEquals",
+    "value": "!=",
+    "startLine": 32,
+    "startColumn": 43
+  },
+  {
+    "type": "Identifier",
+    "value": "ch",
+    "startLine": 32,
+    "startColumn": 40
+  },
+  {
+    "type": "CharLiteral",
+    "value": "']'",
+    "startLine": 32,
+    "startColumn": 46
+  },
+  {
+    "type": "LBrace",
+    "value": "(",
+    "startLine": 32,
+    "startColumn": 39
+  },
+  {
+    "type": "LBrace",
+    "value": "(",
+    "startLine": 32,
+    "startColumn": 21
+  },
+  {
+    "type": "LCurly",
+    "value": "{",
+    "startLine": 33,
+    "startColumn": 19
+  },
+  {
+    "type": "RBrace",
+    "value": ")",
+    "startLine": 33,
+    "startColumn": 17
+  },
+  {
+    "type": "Semicolon",
+    "value": ";",
+    "startLine": 34,
+    "startColumn": 33
+  },
+  {
+    "type": "False",
+    "value": "false",
+    "startLine": 34,
+    "startColumn": 28
+  },
+  {
+    "type": "Return",
+    "value": "return",
+    "startLine": 34,
+    "startColumn": 21
+  },
+  {
+    "type": "RCurly",
+    "value": "}",
+    "startLine": 35,
+    "startColumn": 17
+  },
+  {
+    "type": "RCurly",
+    "value": "}",
+    "startLine": 36,
+    "startColumn": 13
+  },
+  {
+    "type": "RCurly",
+    "value": "}",
+    "startLine": 37,
+    "startColumn": 9
+  },
+  {
+    "type": "Semicolon",
+    "value": ";",
+    "startLine": 39,
+    "startColumn": 42
+  },
+  {
+    "type": "False",
+    "value": "false",
+    "startLine": 39,
+    "startColumn": 37
+  },
+  {
+    "type": "Return",
+    "value": "return",
+    "startLine": 39,
+    "startColumn": 30
+  },
+  {
+    "type": "RBrace",
+    "value": ")",
+    "startLine": 39,
+    "startColumn": 28
+  },
+  {
+    "type": "RBrace",
+    "value": ")",
+    "startLine": 39,
+    "startColumn": 27
+  },
+  {
+    "type": "LBrace",
+    "value": "(",
+    "startLine": 39,
+    "startColumn": 26
+  },
+  {
+    "type": "Identifier",
+    "value": "isEmpty",
+    "startLine": 39,
+    "startColumn": 19
+  },
+  {
+    "type": "Dot",
+    "value": ".",
+    "startLine": 39,
+    "startColumn": 18
+  },
+  {
+    "type": "Identifier",
+    "value": "stack",
+    "startLine": 39,
+    "startColumn": 13
+  },
+  {
+    "type": "Not",
+    "value": "!",
+    "startLine": 39,
+    "startColumn": 12
+  },
+  {
+    "type": "LBrace",
+    "value": "(",
+    "startLine": 39,
+    "startColumn": 11
+  },
+  {
+    "type": "If",
+    "value": "if",
+    "startLine": 39,
+    "startColumn": 9
+  },
+  {
+    "type": "Semicolon",
+    "value": ";",
+    "startLine": 40,
+    "startColumn": 20
+  },
+  {
+    "type": "True",
+    "value": "true",
+    "startLine": 40,
+    "startColumn": 16
+  },
+  {
+    "type": "Return",
+    "value": "return",
+    "startLine": 40,
+    "startColumn": 9
+  },
+  {
+    "type": "RCurly",
+    "value": "}",
+    "startLine": 41,
+    "startColumn": 5
+  },
+  {
+    "type": "LCurly",
+    "value": "{",
+    "startLine": 44,
+    "startColumn": 42
+  },
+  {
+    "type": "RBrace",
+    "value": ")",
+    "startLine": 44,
+    "startColumn": 40
+  },
+  {
+    "type": "LBrace",
+    "value": "(",
+    "startLine": 44,
+    "startColumn": 39
+  },
+  {
+    "type": "Identifier",
+    "value": "convertDecimalToBinary",
+    "startLine": 44,
+    "startColumn": 17
+  },
+  {
+    "type": "Void",
+    "value": "void",
+    "startLine": 44,
+    "startColumn": 12
+  },
+  {
+    "type": "Static",
+    "value": "static",
+    "startLine": 44,
+    "startColumn": 5
+  },
+  {
+    "type": "Semicolon",
+    "value": ";",
+    "startLine": 45,
+    "startColumn": 21
+  },
+  {
+    "type": "DecimalLiteral",
+    "value": "55",
+    "startLine": 45,
+    "startColumn": 19
+  },
+  {
+    "type": "Equals",
+    "value": "=",
+    "startLine": 45,
+    "startColumn": 17
+  },
+  {
+    "type": "Identifier",
+    "value": "num",
+    "startLine": 45,
+    "startColumn": 13
+  },
+  {
+    "type": "Int",
+    "value": "int",
+    "startLine": 45,
+    "startColumn": 9
+  },
+  {
+    "type": "Semicolon",
+    "value": ";",
+    "startLine": 46,
+    "startColumn": 45
+  },
+  {
+    "type": "RBrace",
+    "value": ")",
+    "startLine": 46,
+    "startColumn": 44
+  },
+  {
+    "type": "LBrace",
+    "value": "(",
+    "startLine": 46,
+    "startColumn": 43
+  },
+  {
+    "type": "Greater",
+    "value": ">",
+    "startLine": 46,
+    "startColumn": 42
+  },
+  {
+    "type": "Less",
+    "value": "<",
+    "startLine": 46,
+    "startColumn": 41
+  },
+  {
+    "type": "Identifier",
+    "value": "Stack",
+    "startLine": 46,
+    "startColumn": 36
+  },
+  {
+    "type": "New",
+    "value": "new",
+    "startLine": 46,
+    "startColumn": 32
+  },
+  {
+    "type": "Equals",
+    "value": "=",
+    "startLine": 46,
+    "startColumn": 30
+  },
+  {
+    "type": "Identifier",
+    "value": "stack",
+    "startLine": 46,
+    "startColumn": 24
+  },
+  {
+    "type": "Greater",
+    "value": ">",
+    "startLine": 46,
+    "startColumn": 22
+  },
+  {
+    "type": "Identifier",
+    "value": "Integer",
+    "startLine": 46,
+    "startColumn": 15
+  },
+  {
+    "type": "Less",
+    "value": "<",
+    "startLine": 46,
+    "startColumn": 14
+  },
+  {
+    "type": "Identifier",
+    "value": "Stack",
+    "startLine": 46,
+    "startColumn": 9
+  },
+  {
+    "type": "LCurly",
+    "value": "{",
+    "startLine": 48,
+    "startColumn": 25
+  },
+  {
+    "type": "RBrace",
+    "value": ")",
+    "startLine": 48,
+    "startColumn": 23
+  },
+  {
+    "type": "NotEquals",
+    "value": "!=",
+    "startLine": 48,
+    "startColumn": 19
+  },
+  {
+    "type": "Identifier",
+    "value": "num",
+    "startLine": 48,
+    "startColumn": 15
+  },
+  {
+    "type": "DecimalLiteral",
+    "value": "0",
+    "startLine": 48,
+    "startColumn": 22
+  },
+  {
+    "type": "LBrace",
+    "value": "(",
+    "startLine": 48,
+    "startColumn": 14
+  },
+  {
+    "type": "While",
+    "value": "while",
+    "startLine": 48,
+    "startColumn": 9
+  },
+  {
+    "type": "Semicolon",
+    "value": ";",
+    "startLine": 49,
+    "startColumn": 31
+  },
+  {
+    "type": "Modulo",
+    "value": "%",
+    "startLine": 49,
+    "startColumn": 28
+  },
+  {
+    "type": "Identifier",
+    "value": "num",
+    "startLine": 49,
+    "startColumn": 24
+  },
+  {
+    "type": "DecimalLiteral",
+    "value": "2",
+    "startLine": 49,
+    "startColumn": 30
+  },
+  {
+    "type": "Equals",
+    "value": "=",
+    "startLine": 49,
+    "startColumn": 22
+  },
+  {
+    "type": "Identifier",
+    "value": "calc",
+    "startLine": 49,
+    "startColumn": 17
+  },
+  {
+    "type": "Int",
+    "value": "int",
+    "startLine": 49,
+    "startColumn": 13
+  },
+  {
+    "type": "Semicolon",
+    "value": ";",
+    "startLine": 50,
+    "startColumn": 29
+  },
+  {
+    "type": "RBrace",
+    "value": ")",
+    "startLine": 50,
+    "startColumn": 28
+  },
+  {
+    "type": "Identifier",
+    "value": "calc",
+    "startLine": 50,
+    "startColumn": 24
+  },
+  {
+    "type": "LBrace",
+    "value": "(",
+    "startLine": 50,
+    "startColumn": 23
+  },
+  {
+    "type": "Identifier",
+    "value": "push",
+    "startLine": 50,
+    "startColumn": 19
+  },
+  {
+    "type": "Dot",
+    "value": ".",
+    "startLine": 50,
+    "startColumn": 18
+  },
+  {
+    "type": "Identifier",
+    "value": "stack",
+    "startLine": 50,
+    "startColumn": 13
+  },
+  {
+    "type": "Semicolon",
+    "value": ";",
+    "startLine": 51,
+    "startColumn": 26
+  },
+  {
+    "type": "Divide",
+    "value": "/",
+    "startLine": 51,
+    "startColumn": 23
+  },
+  {
+    "type": "Identifier",
+    "value": "num",
+    "startLine": 51,
+    "startColumn": 19
+  },
+  {
+    "type": "DecimalLiteral",
+    "value": "2",
+    "startLine": 51,
+    "startColumn": 25
+  },
+  {
+    "type": "Equals",
+    "value": "=",
+    "startLine": 51,
+    "startColumn": 17
+  },
+  {
+    "type": "Identifier",
+    "value": "num",
+    "startLine": 51,
+    "startColumn": 13
+  },
+  {
+    "type": "RCurly",
+    "value": "}",
+    "startLine": 52,
+    "startColumn": 9
+  },
+  {
+    "type": "LCurly",
+    "value": "{",
+    "startLine": 54,
+    "startColumn": 34
+  },
+  {
+    "type": "RBrace",
+    "value": ")",
+    "startLine": 54,
+    "startColumn": 32
+  },
+  {
+    "type": "NotEquals",
+    "value": "!=",
+    "startLine": 54,
+    "startColumn": 28
+  },
+  {
+    "type": "RBrace",
+    "value": ")",
+    "startLine": 54,
+    "startColumn": 26
+  },
+  {
+    "type": "LBrace",
+    "value": "(",
+    "startLine": 54,
+    "startColumn": 25
+  },
+  {
+    "type": "Identifier",
+    "value": "size",
+    "startLine": 54,
+    "startColumn": 21
+  },
+  {
+    "type": "Dot",
+    "value": ".",
+    "startLine": 54,
+    "startColumn": 20
+  },
+  {
+    "type": "Identifier",
+    "value": "stack",
+    "startLine": 54,
+    "startColumn": 15
+  },
+  {
+    "type": "DecimalLiteral",
+    "value": "0",
+    "startLine": 54,
+    "startColumn": 31
+  },
+  {
+    "type": "LBrace",
+    "value": "(",
+    "startLine": 54,
+    "startColumn": 14
+  },
+  {
+    "type": "While",
+    "value": "while",
+    "startLine": 54,
+    "startColumn": 9
+  },
+  {
+    "type": "Semicolon",
+    "value": ";",
+    "startLine": 55,
+    "startColumn": 42
+  },
+  {
+    "type": "RBrace",
+    "value": ")",
+    "startLine": 55,
+    "startColumn": 41
+  },
+  {
+    "type": "RBrace",
+    "value": ")",
+    "startLine": 55,
+    "startColumn": 40
+  },
+  {
+    "type": "LBrace",
+    "value": "(",
+    "startLine": 55,
+    "startColumn": 39
+  },
+  {
+    "type": "Identifier",
+    "value": "pop",
+    "startLine": 55,
+    "startColumn": 36
+  },
+  {
+    "type": "Dot",
+    "value": ".",
+    "startLine": 55,
+    "startColumn": 35
+  },
+  {
+    "type": "Identifier",
+    "value": "stack",
+    "startLine": 55,
+    "startColumn": 30
+  },
+  {
+    "type": "LBrace",
+    "value": "(",
+    "startLine": 55,
+    "startColumn": 29
+  },
+  {
+    "type": "Identifier",
+    "value": "out",
+    "startLine": 55,
+    "startColumn": 20
+  },
+  {
+    "type": "Identifier",
+    "value": "print",
+    "startLine": 55,
+    "startColumn": 24
+  },
+  {
+    "type": "Dot",
+    "value": ".",
+    "startLine": 55,
+    "startColumn": 19
+  },
+  {
+    "type": "Dot",
+    "value": ".",
+    "startLine": 55,
+    "startColumn": 23
+  },
+  {
+    "type": "Identifier",
+    "value": "System",
+    "startLine": 55,
+    "startColumn": 13
+  },
+  {
+    "type": "RCurly",
+    "value": "}",
+    "startLine": 56,
+    "startColumn": 9
+  },
+  {
+    "type": "RCurly",
+    "value": "}",
+    "startLine": 57,
+    "startColumn": 5
+  },
+  {
+    "type": "LCurly",
+    "value": "{",
+    "startLine": 59,
+    "startColumn": 32
+  },
+  {
+    "type": "RBrace",
+    "value": ")",
+    "startLine": 59,
+    "startColumn": 30
+  },
+  {
+    "type": "LBrace",
+    "value": "(",
+    "startLine": 59,
+    "startColumn": 29
+  },
+  {
+    "type": "Identifier",
+    "value": "reverseArray",
+    "startLine": 59,
+    "startColumn": 17
+  },
+  {
+    "type": "Void",
+    "value": "void",
+    "startLine": 59,
+    "startColumn": 12
+  },
+  {
+    "type": "Static",
+    "value": "static",
+    "startLine": 59,
+    "startColumn": 5
+  },
+  {
+    "type": "Semicolon",
+    "value": ";",
+    "startLine": 60,
+    "startColumn": 34
+  },
+  {
+    "type": "RCurly",
+    "value": "}",
+    "startLine": 60,
+    "startColumn": 33
+  },
+  {
+    "type": "Comma",
+    "value": ",",
+    "startLine": 60,
+    "startColumn": 23
+  },
+  {
+    "type": "Comma",
+    "value": ",",
+    "startLine": 60,
+    "startColumn": 25
+  },
+  {
+    "type": "Comma",
+    "value": ",",
+    "startLine": 60,
+    "startColumn": 27
+  },
+  {
+    "type": "Comma",
+    "value": ",",
+    "startLine": 60,
+    "startColumn": 29
+  },
+  {
+    "type": "Comma",
+    "value": ",",
+    "startLine": 60,
+    "startColumn": 31
+  },
+  {
+    "type": "DecimalLiteral",
+    "value": "1",
+    "startLine": 60,
+    "startColumn": 22
+  },
+  {
+    "type": "DecimalLiteral",
+    "value": "2",
+    "startLine": 60,
+    "startColumn": 24
+  },
+  {
+    "type": "DecimalLiteral",
+    "value": "3",
+    "startLine": 60,
+    "startColumn": 26
+  },
+  {
+    "type": "DecimalLiteral",
+    "value": "4",
+    "startLine": 60,
+    "startColumn": 28
+  },
+  {
+    "type": "DecimalLiteral",
+    "value": "5",
+    "startLine": 60,
+    "startColumn": 30
+  },
+  {
+    "type": "DecimalLiteral",
+    "value": "6",
+    "startLine": 60,
+    "startColumn": 32
+  },
+  {
+    "type": "LCurly",
+    "value": "{",
+    "startLine": 60,
+    "startColumn": 21
+  },
+  {
+    "type": "Equals",
+    "value": "=",
+    "startLine": 60,
+    "startColumn": 19
+  },
+  {
+    "type": "Identifier",
+    "value": "arr",
+    "startLine": 60,
+    "startColumn": 15
+  },
+  {
+    "type": "RSquare",
+    "value": "]",
+    "startLine": 60,
+    "startColumn": 13
+  },
+  {
+    "type": "LSquare",
+    "value": "[",
+    "startLine": 60,
+    "startColumn": 12
+  },
+  {
+    "type": "Int",
+    "value": "int",
+    "startLine": 60,
+    "startColumn": 9
+  },
+  {
+    "type": "Semicolon",
+    "value": ";",
+    "startLine": 61,
+    "startColumn": 45
+  },
+  {
+    "type": "RBrace",
+    "value": ")",
+    "startLine": 61,
+    "startColumn": 44
+  },
+  {
+    "type": "LBrace",
+    "value": "(",
+    "startLine": 61,
+    "startColumn": 43
+  },
+  {
+    "type": "Greater",
+    "value": ">",
+    "startLine": 61,
+    "startColumn": 42
+  },
+  {
+    "type": "Less",
+    "value": "<",
+    "startLine": 61,
+    "startColumn": 41
+  },
+  {
+    "type": "Identifier",
+    "value": "Stack",
+    "startLine": 61,
+    "startColumn": 36
+  },
+  {
+    "type": "New",
+    "value": "new",
+    "startLine": 61,
+    "startColumn": 32
+  },
+  {
+    "type": "Equals",
+    "value": "=",
+    "startLine": 61,
+    "startColumn": 30
+  },
+  {
+    "type": "Identifier",
+    "value": "stack",
+    "startLine": 61,
+    "startColumn": 24
+  },
+  {
+    "type": "Greater",
+    "value": ">",
+    "startLine": 61,
+    "startColumn": 22
+  },
+  {
+    "type": "Identifier",
+    "value": "Integer",
+    "startLine": 61,
+    "startColumn": 15
+  },
+  {
+    "type": "Less",
+    "value": "<",
+    "startLine": 61,
+    "startColumn": 14
+  },
+  {
+    "type": "Identifier",
+    "value": "Stack",
+    "startLine": 61,
+    "startColumn": 9
+  },
+  {
+    "type": "LCurly",
+    "value": "{",
+    "startLine": 63,
+    "startColumn": 27
+  },
+  {
+    "type": "RBrace",
+    "value": ")",
+    "startLine": 63,
+    "startColumn": 25
+  },
+  {
+    "type": "Identifier",
+    "value": "arr",
+    "startLine": 63,
+    "startColumn": 22
+  },
+  {
+    "type": "Colon",
+    "value": ":",
+    "startLine": 63,
+    "startColumn": 20
+  },
+  {
+    "type": "Identifier",
+    "value": "ele",
+    "startLine": 63,
+    "startColumn": 17
+  },
+  {
+    "type": "Int",
+    "value": "int",
+    "startLine": 63,
+    "startColumn": 13
+  },
+  {
+    "type": "LBrace",
+    "value": "(",
+    "startLine": 63,
+    "startColumn": 12
+  },
+  {
+    "type": "For",
+    "value": "for",
+    "startLine": 63,
+    "startColumn": 9
+  },
+  {
+    "type": "Semicolon",
+    "value": ";",
+    "startLine": 64,
+    "startColumn": 28
+  },
+  {
+    "type": "RBrace",
+    "value": ")",
+    "startLine": 64,
+    "startColumn": 27
+  },
+  {
+    "type": "Identifier",
+    "value": "ele",
+    "startLine": 64,
+    "startColumn": 24
+  },
+  {
+    "type": "LBrace",
+    "value": "(",
+    "startLine": 64,
+    "startColumn": 23
+  },
+  {
+    "type": "Identifier",
+    "value": "push",
+    "startLine": 64,
+    "startColumn": 19
+  },
+  {
+    "type": "Dot",
+    "value": ".",
+    "startLine": 64,
+    "startColumn": 18
+  },
+  {
+    "type": "Identifier",
+    "value": "stack",
+    "startLine": 64,
+    "startColumn": 13
+  },
+  {
+    "type": "RCurly",
+    "value": "}",
+    "startLine": 65,
+    "startColumn": 9
+  },
+  {
+    "type": "LCurly",
+    "value": "{",
+    "startLine": 67,
+    "startColumn": 45
+  },
+  {
+    "type": "RBrace",
+    "value": ")",
+    "startLine": 67,
+    "startColumn": 43
+  },
+  {
+    "type": "PlusPlus",
+    "value": "++",
+    "startLine": 67,
+    "startColumn": 41
+  },
+  {
+    "type": "Identifier",
+    "value": "i",
+    "startLine": 67,
+    "startColumn": 40
+  },
+  {
+    "type": "Less",
+    "value": "<",
+    "startLine": 67,
+    "startColumn": 26
+  },
+  {
+    "type": "Identifier",
+    "value": "i",
+    "startLine": 67,
+    "startColumn": 24
+  },
+  {
+    "type": "Identifier",
+    "value": "length",
+    "startLine": 67,
+    "startColumn": 32
+  },
+  {
+    "type": "Dot",
+    "value": ".",
+    "startLine": 67,
+    "startColumn": 31
+  },
+  {
+    "type": "Identifier",
+    "value": "arr",
+    "startLine": 67,
+    "startColumn": 28
+  },
+  {
+    "type": "Semicolon",
+    "value": ";",
+    "startLine": 67,
+    "startColumn": 22
+  },
+  {
+    "type": "Semicolon",
+    "value": ";",
+    "startLine": 67,
+    "startColumn": 38
+  },
+  {
+    "type": "DecimalLiteral",
+    "value": "0",
+    "startLine": 67,
+    "startColumn": 21
+  },
+  {
+    "type": "Equals",
+    "value": "=",
+    "startLine": 67,
+    "startColumn": 19
+  },
+  {
+    "type": "Identifier",
+    "value": "i",
+    "startLine": 67,
+    "startColumn": 17
+  },
+  {
+    "type": "Int",
+    "value": "int",
+    "startLine": 67,
+    "startColumn": 13
+  },
+  {
+    "type": "LBrace",
+    "value": "(",
+    "startLine": 67,
+    "startColumn": 12
+  },
+  {
+    "type": "For",
+    "value": "for",
+    "startLine": 67,
+    "startColumn": 9
+  },
+  {
+    "type": "Semicolon",
+    "value": ";",
+    "startLine": 68,
+    "startColumn": 33
+  },
+  {
+    "type": "RBrace",
+    "value": ")",
+    "startLine": 68,
+    "startColumn": 32
+  },
+  {
+    "type": "LBrace",
+    "value": "(",
+    "startLine": 68,
+    "startColumn": 31
+  },
+  {
+    "type": "Identifier",
+    "value": "pop",
+    "startLine": 68,
+    "startColumn": 28
+  },
+  {
+    "type": "Dot",
+    "value": ".",
+    "startLine": 68,
+    "startColumn": 27
+  },
+  {
+    "type": "Identifier",
+    "value": "stack",
+    "startLine": 68,
+    "startColumn": 22
+  },
+  {
+    "type": "Equals",
+    "value": "=",
+    "startLine": 68,
+    "startColumn": 20
+  },
+  {
+    "type": "RSquare",
+    "value": "]",
+    "startLine": 68,
+    "startColumn": 18
+  },
+  {
+    "type": "Identifier",
+    "value": "i",
+    "startLine": 68,
+    "startColumn": 17
+  },
+  {
+    "type": "LSquare",
+    "value": "[",
+    "startLine": 68,
+    "startColumn": 16
+  },
+  {
+    "type": "Identifier",
+    "value": "arr",
+    "startLine": 68,
+    "startColumn": 13
+  },
+  {
+    "type": "RCurly",
+    "value": "}",
+    "startLine": 69,
+    "startColumn": 9
+  },
+  {
+    "type": "LBrace",
+    "value": "(",
+    "startLine": 71,
+    "startColumn": 27
+  },
+  {
+    "type": "Identifier",
+    "value": "out",
+    "startLine": 71,
+    "startColumn": 16
+  },
+  {
+    "type": "Identifier",
+    "value": "println",
+    "startLine": 71,
+    "startColumn": 20
+  },
+  {
+    "type": "Dot",
+    "value": ".",
+    "startLine": 71,
+    "startColumn": 15
+  },
+  {
+    "type": "Dot",
+    "value": ".",
+    "startLine": 71,
+    "startColumn": 19
+  },
+  {
+    "type": "Identifier",
+    "value": "System",
+    "startLine": 71,
+    "startColumn": 9
+  },
+  {
+    "type": "RBrace",
+    "value": ")",
+    "startLine": 72,
+    "startColumn": 32
+  },
+  {
+    "type": "Identifier",
+    "value": "arr",
+    "startLine": 72,
+    "startColumn": 29
+  },
+  {
+    "type": "LBrace",
+    "value": "(",
+    "startLine": 72,
+    "startColumn": 28
+  },
+  {
+    "type": "Identifier",
+    "value": "toString",
+    "startLine": 72,
+    "startColumn": 20
+  },
+  {
+    "type": "Dot",
+    "value": ".",
+    "startLine": 72,
+    "startColumn": 19
+  },
+  {
+    "type": "Identifier",
+    "value": "Arrays",
+    "startLine": 72,
+    "startColumn": 13
+  },
+  {
+    "type": "Semicolon",
+    "value": ";",
+    "startLine": 73,
+    "startColumn": 10
+  },
+  {
+    "type": "RBrace",
+    "value": ")",
+    "startLine": 73,
+    "startColumn": 9
+  },
+  {
+    "type": "RCurly",
+    "value": "}",
+    "startLine": 74,
+    "startColumn": 5
+  },
+  {
+    "type": "RCurly",
+    "value": "}",
+    "startLine": 75,
+    "startColumn": 1
+  }
+]

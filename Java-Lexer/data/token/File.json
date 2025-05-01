@@ -1,0 +1,814 @@
+[
+  {
+    "value": "Here",
+    "line": 2
+  },
+  {
+    "value": "is",
+    "line": 2
+  },
+  {
+    "value": "a",
+    "line": 2
+  },
+  {
+    "value": "code",
+    "line": 2
+  },
+  {
+    "value": "for",
+    "line": 2
+  },
+  {
+    "value": "testing",
+    "line": 2
+  },
+  {
+    "value": "how",
+    "line": 2
+  },
+  {
+    "value": "lexical",
+    "line": 2
+  },
+  {
+    "value": "analyzer",
+    "line": 2
+  },
+  {
+    "value": "should",
+    "line": 2
+  },
+  {
+    "value": "work",
+    "line": 2
+  },
+  {
+    "value": "class",
+    "line": 4
+  },
+  {
+    "value": "File",
+    "line": 4
+  },
+  {
+    "value": "{",
+    "line": 4
+  },
+  {
+    "value": "static",
+    "line": 5
+  },
+  {
+    "value": "boolean",
+    "line": 5
+  },
+  {
+    "value": "isPrime",
+    "line": 5
+  },
+  {
+    "value": "(",
+    "line": 5
+  },
+  {
+    "value": "int",
+    "line": 5
+  },
+  {
+    "value": "c",
+    "line": 5
+  },
+  {
+    "value": ")",
+    "line": 5
+  },
+  {
+    "value": "{",
+    "line": 6
+  },
+  {
+    "value": "if",
+    "line": 7
+  },
+  {
+    "value": "(",
+    "line": 7
+  },
+  {
+    "value": "c",
+    "line": 7
+  },
+  {
+    "value": "%",
+    "line": 7
+  },
+  {
+    "value": "2",
+    "line": 7
+  },
+  {
+    "value": "==",
+    "line": 7
+  },
+  {
+    "value": "0",
+    "line": 7
+  },
+  {
+    "value": ")",
+    "line": 7
+  },
+  {
+    "value": "return",
+    "line": 8
+  },
+  {
+    "value": "false",
+    "line": 8
+  },
+  {
+    "value": ";",
+    "line": 8
+  },
+  {
+    "value": "int",
+    "line": 9
+  },
+  {
+    "value": "d",
+    "line": 9
+  },
+  {
+    "value": ";",
+    "line": 9
+  },
+  {
+    "value": "d",
+    "line": 10
+  },
+  {
+    "value": "=",
+    "line": 10
+  },
+  {
+    "value": "3",
+    "line": 10
+  },
+  {
+    "value": ";",
+    "line": 10
+  },
+  {
+    "value": "while",
+    "line": 11
+  },
+  {
+    "value": "(",
+    "line": 11
+  },
+  {
+    "value": "d",
+    "line": 11
+  },
+  {
+    "value": "!=",
+    "line": 11
+  },
+  {
+    "value": "c",
+    "line": 11
+  },
+  {
+    "value": ")",
+    "line": 11
+  },
+  {
+    "value": "{",
+    "line": 12
+  },
+  {
+    "value": "if",
+    "line": 13
+  },
+  {
+    "value": "(",
+    "line": 13
+  },
+  {
+    "value": "c",
+    "line": 13
+  },
+  {
+    "value": "%",
+    "line": 13
+  },
+  {
+    "value": "d",
+    "line": 13
+  },
+  {
+    "value": "==",
+    "line": 13
+  },
+  {
+    "value": "0",
+    "line": 13
+  },
+  {
+    "value": ")",
+    "line": 13
+  },
+  {
+    "value": "return",
+    "line": 14
+  },
+  {
+    "value": "false",
+    "line": 14
+  },
+  {
+    "value": ";",
+    "line": 14
+  },
+  {
+    "value": "d",
+    "line": 15
+  },
+  {
+    "value": "=",
+    "line": 15
+  },
+  {
+    "value": "d",
+    "line": 15
+  },
+  {
+    "value": "+",
+    "line": 15
+  },
+  {
+    "value": "2",
+    "line": 15
+  },
+  {
+    "value": ";",
+    "line": 15
+  },
+  {
+    "value": "}",
+    "line": 16
+  },
+  {
+    "value": "String",
+    "line": 17
+  },
+  {
+    "value": "s",
+    "line": 17
+  },
+  {
+    "value": "=",
+    "line": 17
+  },
+  {
+    "value": "\"This",
+    "line": 17
+  },
+  {
+    "value": "is",
+    "line": 17
+  },
+  {
+    "value": "a",
+    "line": 17
+  },
+  {
+    "value": "useless",
+    "line": 17
+  },
+  {
+    "value": "string",
+    "line": 17
+  },
+  {
+    "value": "literal\"",
+    "line": 17
+  },
+  {
+    "value": ";",
+    "line": 17
+  },
+  {
+    "value": "return",
+    "line": 18
+  },
+  {
+    "value": "true",
+    "line": 18
+  },
+  {
+    "value": ";",
+    "line": 18
+  },
+  {
+    "value": "}",
+    "line": 19
+  },
+  {
+    "value": "static",
+    "line": 22
+  },
+  {
+    "value": "int",
+    "line": 22
+  },
+  {
+    "value": "gcd",
+    "line": 22
+  },
+  {
+    "value": "(",
+    "line": 22
+  },
+  {
+    "value": "int",
+    "line": 22
+  },
+  {
+    "value": "a",
+    "line": 22
+  },
+  {
+    "value": ",",
+    "line": 22
+  },
+  {
+    "value": "int",
+    "line": 22
+  },
+  {
+    "value": "b",
+    "line": 22
+  },
+  {
+    "value": ")",
+    "line": 22
+  },
+  {
+    "value": "{",
+    "line": 23
+  },
+  {
+    "value": "String",
+    "line": 24
+  },
+  {
+    "value": "s",
+    "line": 24
+  },
+  {
+    "value": "=",
+    "line": 24
+  },
+  {
+    "value": "\"",
+    "line": 24
+  },
+  {
+    "value": "This",
+    "line": 24
+  },
+  {
+    "value": "is",
+    "line": 24
+  },
+  {
+    "value": "an",
+    "line": 24
+  },
+  {
+    "value": "invalid",
+    "line": 24
+  },
+  {
+    "value": "string",
+    "line": 24
+  },
+  {
+    "value": "literal",
+    "line": 24
+  },
+  {
+    "value": "int",
+    "line": 25
+  },
+  {
+    "value": "m",
+    "line": 25
+  },
+  {
+    "value": ";",
+    "line": 25
+  },
+  {
+    "value": "int",
+    "line": 26
+  },
+  {
+    "value": "#23sd",
+    "line": 26
+  },
+  {
+    "value": ";",
+    "line": 26
+  },
+  {
+    "value": "m",
+    "line": 27
+  },
+  {
+    "value": "=",
+    "line": 27
+  },
+  {
+    "value": "b",
+    "line": 27
+  },
+  {
+    "value": "%",
+    "line": 27
+  },
+  {
+    "value": "a",
+    "line": 27
+  },
+  {
+    "value": ";",
+    "line": 27
+  },
+  {
+    "value": "if",
+    "line": 28
+  },
+  {
+    "value": "(",
+    "line": 28
+  },
+  {
+    "value": "m",
+    "line": 28
+  },
+  {
+    "value": "==",
+    "line": 28
+  },
+  {
+    "value": "0",
+    "line": 28
+  },
+  {
+    "value": ")",
+    "line": 28
+  },
+  {
+    "value": "return",
+    "line": 29
+  },
+  {
+    "value": "a",
+    "line": 29
+  },
+  {
+    "value": ";",
+    "line": 29
+  },
+  {
+    "value": "else",
+    "line": 30
+  },
+  {
+    "value": "return",
+    "line": 31
+  },
+  {
+    "value": "gcd",
+    "line": 31
+  },
+  {
+    "value": "(",
+    "line": 31
+  },
+  {
+    "value": "m",
+    "line": 31
+  },
+  {
+    "value": ",",
+    "line": 31
+  },
+  {
+    "value": "a",
+    "line": 31
+  },
+  {
+    "value": ")",
+    "line": 31
+  },
+  {
+    "value": ";",
+    "line": 31
+  },
+  {
+    "value": "}",
+    "line": 32
+  },
+  {
+    "value": "static",
+    "line": 34
+  },
+  {
+    "value": "int",
+    "line": 34
+  },
+  {
+    "value": "fibonacci",
+    "line": 34
+  },
+  {
+    "value": "(",
+    "line": 34
+  },
+  {
+    "value": "int",
+    "line": 34
+  },
+  {
+    "value": "n",
+    "line": 34
+  },
+  {
+    "value": ")",
+    "line": 34
+  },
+  {
+    "value": "{",
+    "line": 35
+  },
+  {
+    "value": "if",
+    "line": 36
+  },
+  {
+    "value": "(",
+    "line": 36
+  },
+  {
+    "value": "(",
+    "line": 36
+  },
+  {
+    "value": "n",
+    "line": 36
+  },
+  {
+    "value": "==",
+    "line": 36
+  },
+  {
+    "value": "1",
+    "line": 36
+  },
+  {
+    "value": ")",
+    "line": 36
+  },
+  {
+    "value": "||",
+    "line": 36
+  },
+  {
+    "value": "(",
+    "line": 36
+  },
+  {
+    "value": "n",
+    "line": 36
+  },
+  {
+    "value": "==",
+    "line": 36
+  },
+  {
+    "value": "2",
+    "line": 36
+  },
+  {
+    "value": ")",
+    "line": 36
+  },
+  {
+    "value": ")",
+    "line": 36
+  },
+  {
+    "value": "return",
+    "line": 37
+  },
+  {
+    "value": "1",
+    "line": 37
+  },
+  {
+    "value": ";",
+    "line": 37
+  },
+  {
+    "value": "else",
+    "line": 38
+  },
+  {
+    "value": "return",
+    "line": 39
+  },
+  {
+    "value": "fibonacci",
+    "line": 39
+  },
+  {
+    "value": "(",
+    "line": 39
+  },
+  {
+    "value": "n",
+    "line": 39
+  },
+  {
+    "value": "-",
+    "line": 39
+  },
+  {
+    "value": "1",
+    "line": 39
+  },
+  {
+    "value": ")",
+    "line": 39
+  },
+  {
+    "value": "+",
+    "line": 39
+  },
+  {
+    "value": "fibonacci",
+    "line": 39
+  },
+  {
+    "value": "(",
+    "line": 39
+  },
+  {
+    "value": "n",
+    "line": 39
+  },
+  {
+    "value": "-",
+    "line": 39
+  },
+  {
+    "value": "2",
+    "line": 39
+  },
+  {
+    "value": ")",
+    "line": 39
+  },
+  {
+    "value": ";",
+    "line": 39
+  },
+  {
+    "value": "}",
+    "line": 40
+  },
+  {
+    "value": "static",
+    "line": 42
+  },
+  {
+    "value": "float",
+    "line": 42
+  },
+  {
+    "value": "average",
+    "line": 42
+  },
+  {
+    "value": "(",
+    "line": 42
+  },
+  {
+    "value": "int",
+    "line": 42
+  },
+  {
+    "value": "n1",
+    "line": 42
+  },
+  {
+    "value": ",",
+    "line": 42
+  },
+  {
+    "value": "int",
+    "line": 42
+  },
+  {
+    "value": "n2",
+    "line": 42
+  },
+  {
+    "value": ",",
+    "line": 42
+  },
+  {
+    "value": "int",
+    "line": 42
+  },
+  {
+    "value": "n3",
+    "line": 42
+  },
+  {
+    "value": ")",
+    "line": 42
+  },
+  {
+    "value": "{",
+    "line": 43
+  },
+  {
+    "value": "float",
+    "line": 44
+  },
+  {
+    "value": "sum",
+    "line": 44
+  },
+  {
+    "value": "=",
+    "line": 44
+  },
+  {
+    "value": "n1",
+    "line": 44
+  },
+  {
+    "value": "+",
+    "line": 44
+  },
+  {
+    "value": "n2",
+    "line": 44
+  },
+  {
+    "value": "+",
+    "line": 44
+  },
+  {
+    "value": "n3",
+    "line": 44
+  },
+  {
+    "value": ";",
+    "line": 44
+  },
+  {
+    "value": "return",
+    "line": 45
+  },
+  {
+    "value": "sum",
+    "line": 45
+  },
+  {
+    "value": "/",
+    "line": 45
+  },
+  {
+    "value": "3.0",
+    "line": 45
+  },
+  {
+    "value": ";",
+    "line": 45
+  },
+  {
+    "value": "}",
+    "line": 46
+  },
+  {
+    "value": "}",
+    "line": 47
+  }
+]

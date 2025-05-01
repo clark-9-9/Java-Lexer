@@ -1,6 +1,10 @@
 import fs from "fs";
 import path from "path";
-import { patterns } from "./tokens_regexs.js";
+import {
+    javaKeywords,
+    javaOperators,
+    javaSeparators,
+} from "./tokens_regexs.js";
 
 const sourceCodes: {
     [key: string]: { name: string; token_name: string; code: string };
@@ -22,39 +26,40 @@ type TokenType =
     | "identifier"
     | "operator"
     | "separator"
-    | "string_literal"
+    | "literal"
     | "number"
     | "unknown";
+
+// Define token patterns dynamically
+const patterns = {
+    keyword: new RegExp(`^(${javaKeywords.join("|")})$`),
+    operator: new RegExp(
+        `^(${javaOperators
+            .map((op) => op.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"))
+            .join("|")})$`
+    ),
+    separator: new RegExp(
+        `^(${javaSeparators
+            .map((sep) => sep.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"))
+            .join("|")})$`
+    ),
+    number: /^-?\d+(\.\d+)?$/,
+    identifier: /^[a-zA-Z_][a-zA-Z0-9_]*$/,
+    stringLiteral: /^"[^"]*"?$/,
+};
 
 try {
     const source = sourceCodes.source_2;
     const inputText = fs.readFileSync(source.code, "utf8");
 
-    // Split into lines first
-    const lines = inputText.split(/\r?\n/);
+    // Remove multi-line comments first
+    const noMultilineComments = inputText.replace(/\/\*[\s\S]*?\*\//g, "");
 
-    // Track if we're inside a multi-line comment
-    let inMultiLineComment = false;
+    // Remove single-line comments
+    const noComments = noMultilineComments.replace(/\/\/.*/g, "");
 
-    // Process each line to remove comments while preserving line numbers
-    // Remove single-line comments and multi-line comments
-    const processedLines = lines.map((line) => {
-        // Handle multi-line comments
-        if (line.includes("/*")) {
-            inMultiLineComment = true;
-            return "";
-        }
-        if (line.includes("*/")) {
-            inMultiLineComment = false;
-            return "";
-        }
-        if (inMultiLineComment) {
-            return "";
-        }
-
-        // Remove single-line comments
-        return line.replace(/\/\/.*$/g, "").trim();
-    });
+    // Split into lines and process
+    const lines = noComments.split(/\r?\n/);
 
     const tokens: Array<{
         type: TokenType;
@@ -65,28 +70,33 @@ try {
 
     const errors = new Set<string>();
 
-    processedLines.forEach((line, lineNumber) => {
-        // Preserve the original line number
-        const actualLineNumber = lineNumber + 1;
-
+    lines.forEach((line, lineNumber) => {
         if (line.trim() === "") return;
 
         // Handle string literals first
         let currentLine = line;
-        const stringMatches = currentLine.match(/"[^"]*"?/g) || [];
-        const stringPositions: { value: string; error?: string }[] = [];
+        const stringMatches = line.match(/"[^"]*"?/g) || [];
+        const stringPositions: { start: number; end: number; value: string }[] =
+            [];
 
         stringMatches.forEach((match) => {
-            const isComplete = match.endsWith('"');
-            stringPositions.push({
-                value: match,
-                ...(isComplete ? {} : { error: "Unclosed string literal" }),
-            });
-            currentLine = currentLine.replace(match, ""); // Remove string literals
+            const startIdx = currentLine.indexOf(match);
+            if (startIdx !== -1) {
+                stringPositions.push({
+                    start: startIdx,
+                    end: startIdx + match.length,
+                    value: match,
+                });
+                // Replace string with spaces to preserve position
+                currentLine =
+                    currentLine.slice(0, startIdx) +
+                    " ".repeat(match.length) +
+                    currentLine.slice(startIdx + match.length);
+            }
         });
 
-        // Split remaining tokens by whitespace
-        const tokenOfLine = currentLine.trim().split(/\s+/).filter(Boolean);
+        // Split remaining tokens
+        const tokenOfLine = currentLine.trim().split(/\s+/);
 
         // Process each token
         tokenOfLine.forEach((token) => {
@@ -96,42 +106,48 @@ try {
             let error: string | undefined;
 
             // Determine token type
-            if (patterns.KEYWORD.regex.test(token)) {
+            if (patterns.keyword.test(token)) {
                 type = "keyword";
-            } else if (patterns.OPERATOR.regex.test(token)) {
+            } else if (patterns.operator.test(token)) {
                 type = "operator";
-            } else if (patterns.SEPARATOR.regex.test(token)) {
+            } else if (patterns.separator.test(token)) {
                 type = "separator";
-            } else if (patterns.NUMBER.regex.test(token)) {
+            } else if (patterns.number.test(token)) {
                 type = "number";
-            } else if (patterns.Identifier.regex.test(token)) {
+            } else if (patterns.identifier.test(token)) {
                 type = "identifier";
             } else {
                 type = "unknown";
                 error = `Invalid token: "${token}"`;
             }
 
+            // Add token to the list
             tokens.push({
                 type,
                 value: token,
-                line: actualLineNumber,
+                line: lineNumber + 1,
                 ...(error && { error }),
             });
 
+            // Track unique errors
             if (error) {
                 errors.add(error);
             }
         });
 
         // Add string literals back with validation
-        stringPositions.forEach(({ value, error }) => {
+        stringPositions.forEach(({ value }) => {
+            const isComplete = value.endsWith('"');
+            const error = !isComplete ? "Unclosed string literal" : undefined;
+
             tokens.push({
-                type: "string_literal",
+                type: "literal",
                 value: value,
-                line: actualLineNumber,
+                line: lineNumber + 1,
                 ...(error && { error }),
             });
 
+            // Track unique errors
             if (error) {
                 errors.add(error);
             }
@@ -141,11 +157,7 @@ try {
     // Print unique errors
     if (errors.size > 0) {
         console.log("Errors detected:");
-        tokens
-            .filter((token) => token.error)
-            .forEach((token) =>
-                console.log(`Line ${token.line}: ${token.error}`)
-            );
+        errors.forEach((err) => console.log(`- ${err}`));
     }
 
     // Save output in JSON format
